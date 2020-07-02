@@ -3,11 +3,6 @@
 ![logo](/media/general/LedgerLogo.png)
 
 
-- 
-<span class="large-caps">Ledger</span> an EU funded project, empowers people to solve problems using decentralised technologies such as blockchain, peer to peer or distributed ledger technologies.
-
-
-
 <!--
 - The <span class="small-caps">zenroom vm</span> is very small, has **no external dependency**, is fully deterministic and ready to run **end-to-end encryption** on any platform:
 desktop, embedded, mobile, cloud and even web browsers.

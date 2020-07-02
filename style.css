@@ -81,8 +81,9 @@ footer span {
     padding: 15px;
 }
 
-.sidebar ul li a {
+.sidebar ul li strong a {
     font-size: 15px;
+	font-weight: bolder;
 }
 
 .sidebar ul li.active>a {
@@ -219,7 +220,7 @@ footer span {
 /****** Markdown General ******/
 
 .markdown-section {
-    padding: 30px 60px 40px;
+    padding: 30px 80px 40px;
     max-width: 1200px;
 }
 
@@ -325,8 +326,7 @@ footer span {
 /** COVERPAGE **/
 
 section.cover .cover-main img {
-    max-width: 500px;
-    padding-bottom: 20px;
+    max-width: 300px;
 }
 
 .app-nav li,
@@ -410,4 +410,12 @@ section.cover p {
 #main .mermaid .cluster rect {
     fill: #f8f8f8 !important;
     stroke: var(--theme-color) !important;
+}
+
+section.cover {
+    height: 33vh;
+}
+
+section.cover .cover-main {
+     margin: 20px 16px 0;
 }
