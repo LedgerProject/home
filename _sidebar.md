@@ -1,5 +1,5 @@
  - Welcome
-  - [Basic info](../README.md "The Basic info")
+  - [Basic info](/general/start.md "The Basic info")
   - [The Teams](/general/teams.md "The Teams") 
 
  Shared repos
