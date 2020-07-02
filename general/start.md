@@ -9,7 +9,3 @@ Ledger an EU funded project, empowers people to solve problems using decentralis
 ...coming soon!
 
 
-## 
-
-
-![LegderLogo](../media/general/LedgerLogo.png)
