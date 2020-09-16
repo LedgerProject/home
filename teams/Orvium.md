@@ -1,11 +1,20 @@
-# The Project
+# The Orvium Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Researchers have to publish papers to share their findings, making scientific publishing really important for their careers and for scientific progress.
+One of the major problems is that running scientific journals is very difficult and costly to maintain.
+Orvium makes it very simple to create and manage open access journals. The goal is that every university, research lab, or group of researchers, can create high quality journals with just a few clicks.
 
 
 ## The Technology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Microservices that are very flexible and is helpful to adapt and evolve fast
+- Blockchain is the only technology that can ensure independent transparency and security to:
+	- Decentralize the publishing process
+	- Gamifying scientific publishing, we have to incentivize academics to contribute and collaborate and give reputation to the community members 
+	- Track the activity of scientific publishing, making it traceable and transparent for everyone.
+- Angular provides a powerful web browser technology
+- NestJS backend API
+
 
 ## The Repos
 

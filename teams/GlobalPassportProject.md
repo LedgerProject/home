@@ -1,12 +1,16 @@
-# The Project
+# The Global Passport Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+In 2015 the terrible news of a 14-year-old Malian boy drowned in a shipwreck in the Mediterranean with his school reports in his pocket marked a change in the perception of migrants attempting to reach Europe. Global Passport Project is a breakthrough initiative that leverages on decentralized technology to support refugees and mixed migrants along their journey, protect their privacy while reporting human rights violations, and engage them as citizens integrating in their new communities. GPP will enormously improve the capacity of NGOs and social enterprises to reach out to migrants and design their actions, thus streamlining their resources and improving their performance and records when applying for funds and calls.
 
 ## The Technology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We plan to use the following technologies but we are evaluating alternative components with existing decentralized technologies and are open for discussion:
 
+ - Ionic Angular (mobile and website)
+ - Node.js, PostgrSQL (back-end)
+ - Ethereum, IPFS, web3.js (blockchain)
+ - GNU LGPL 
+	
 ## The Repos
 
 Write here:  

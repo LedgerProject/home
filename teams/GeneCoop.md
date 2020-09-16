@@ -1,11 +1,11 @@
-# The Project
+# The Gene Coop Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+Citizen cooperative for encryption keys for consent for genomic data.
 
 ## The Technology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ - Zenroom
+ - LabSpace platform at SURF. It consists of the SURF research cloud and federated identity access management system. On top of this cloud infrastructure we have a DNA test and QA/QC service where we can link identifiers for data curation. These identifiers are a key part of the total system architecture and need to be linked to the smart consent contract ledger services.d to be linked to the smart consent contract ledger services.o test the services we use the LabSpace platform at SURF.  smart consent contract ledger services.d to be linked to the smart consent contract ledger services.o test the services we use the LabSpace platform at SURF.
 
 ## The Repos
 

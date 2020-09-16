@@ -1,11 +1,13 @@
-# The Project
+# The BackMe Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+Backme is a new way for content creators to build their own community and earn money based on human-centric values. With Backme content creators can receive small
+recurring donations, collaborate with other content creators and explore new business2business opportunities. This in respect of the privacy of their individual
+fans and in way that is ethical and sustainable. What we try to achieve with Backme is that there can be an internet without the need for advertising revenue’s or paywall's. 
+We started exploring the possibilities of a revenue model without advertisements and paywalls back in 2017. In 2018 we dedicated ourselves to desk- and market research, experiments and eventually pilots. As of January 1st we incorporated Backme and we have achieved an constant average growth M2M of 20% with almost no need for marketing. We hope to expand beyond the Netherlands to other countries in Europe where freedom of press and freedom of expression is more limited than the Netherlands and help dissident bloggers, journalists and vloggers keep standing up for minorities and share their stories and content. eventually pilots.
 
 ## The Technology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Tisers and/or paywalls
 
 ## The Repos
 

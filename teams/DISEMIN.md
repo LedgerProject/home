@@ -1,11 +1,15 @@
-# The Project
+# The Distributed Secure Smart Farming Log (DISEMIN) Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Ex Machina is an IoT system integrator that serves industrial customers with environmental monitoring & predictive analytics solutions, using machine learning and modular hardware.
+Like most Greeks, we have farmers in our family and we see that the farming digital transformation promise is derailing.  We see farmers losing control over their farming practices, becoming alienated from their work and having to adjust to technology and large corporations rather than the other way round.
+We decided to enter the agricultural space, with our open IoT solutions and the goal to create a marketplace where farmers and advisors can share data and services in a fair manner.
 
 
 ## The Technology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We will provide a complete opensource IoT solution that combines a farmer’s log mobile application with crop sensor data using a distributed ledger built in to the hardware, and a marketplace that will enable farmers and advisors to collaborate.
+IOTA TANGLE / LoRaWAN / RPi / Android
+
 
 ## The Repos
 

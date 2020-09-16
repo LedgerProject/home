@@ -1,11 +1,16 @@
-# The Project
+# The Eschooltul Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Eschooltul is a tool that serves families, institutions and schools by providing sovereign control over children's sensitive data.
+We secure the Students’ Digital Files by recording the accesses to it, and storing hashes of its contents in a Blockchain in order to guarantee the integrity of the data. In the future, Eschooltul also intends to store the original data on the Blockchain, to facilitate interoperability.
 
 
 ## The Technology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Eschooltul offers an open source and free network, in which tutors, institutions and developers will have full free access to the code. They may also contract us to carry out integrations with their ERP’s or other software. Using Eschooltul, with a very intuitive web app interface, they may upload data to the blockchain, and/or consult it to verify the information hashes and accesses.
+Given the criticality of the data handled, the main technological requirement is that each part of this project complies with the application of the seven foundational principles of privacy by design. 
+For that reason, we are analyzing several distributed ledger technologies to choose the one that best suits the needs of the project. We will probably use the Stellar blockchain (attaching data to an account or attaching data to a transaction via the memo field).
+
+If there are no changes during development, we will use Golang (Go) on the backend and React on the frontend.
 
 ## The Repos
 

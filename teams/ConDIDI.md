@@ -1,11 +1,11 @@
-# The Project
+# The ConDIDI Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ConDIDI will develop the full lifecycle for digital conference credentials. Our first application is to allow conference participants to easily demonstrate their level of involvement at scientific conferences using the technology of self-sovereign identity and verifiable credentials. However this technology is not restricted to conferences only, instead it can be used for any kind of credentials.
 
 
 ## The Technology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We will build on the SSI framework already developed by Jolocom. We have not yet made a decision regarding the conference credential front end, and we will first look into the requirements of the users to decide what is a good technology solution. Conference organisers will have to work with digital signatures, so we need to create an easy to use and integrate workflow.rs will have to work with digital signatures, so we need to create an easy to use and integrate workflow.d to create an easy to use and integrate workflow. we will first look into the requirements of the users to decide what is a good technology solution. Conference organisers will have to work with digital signatures, so we need to create an easy to use and integrate workflow.rs will have to work with digital signatures, so we need to create an easy to use and integrate workflow.d to create an easy to use and integrate workflow.
 
 ## The Repos
 

@@ -1,11 +1,13 @@
-# The Project
+# The LiV Project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Inheritance is currently a complex, bureaucratic and paper-based process. LiV sees an opportunity to improve the way in which these interactions and services take place. LiV is a web platform built on blockchain and other technologies that addresses authentication & confidentiality issues and protecting users. LiV aims to simplify processes, reduce risks, time and costs for the ecosystem.
 
 
 ## The Technology
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+LiV will be using decentralised technologies with an encryption component. We plan on leveraging existing developments done by other LEDGER participants (we are in particular considering Unified Science).  LiV aims to create a simple and interactive Graphical User Interface for communicating with the blockchain system.
+We are evaluating the use of a public non-permissioned blockchain, with smart contracts with restricted users that can interact with, as a permissioned contract.
+Further assessment of existing LEDGER components and developments needs to be done to ensure synergies and collaboration are maximised. 
 
 ## The Repos
 
