@@ -7,42 +7,20 @@ We started exploring the possibilities of a revenue model without advertisements
 
 ## The Technology
 
-Tisers and/or paywalls
-
-## The Repos
-
-Write here:  
- - The link to each repo
- - What each repo does 
- - The requirement of each repo
- - How the repos interact with each other
-
-Examples: 
+Our sw get the news content from the sources and keeps track of the changes by storing every revision.
+The API are REST, the payload is in JSON. The code is in written in PHP and uses MySQL as db.
+The information will be stored in a blockchain to guarantee the data integrity.
 
 ###  Repo-Backend
- - [Repo-Backend](https://github.com/deCODEproject/zenroom)
- - ***Repo-Backend*** does basic cryptography and contains most of the business logic
- - It requires Node-JS 14 or above
- - It connects to Repo-MongoDB and with Repo-FrontEnd
+ - [Repo-Backend](https://github.com/LedgerProject/BackMe.org_scraper-back-end)
+ - ***Repo-Backend*** contains the API, the crawler and a basic frontend
+ - It runs on Apache or Ngnix for the PHP code and uses MySQL with MariaDB
  
 
-## Misc
+## Note
 
-This stuff  **is in bold** and this is ***in italic*** 
+The repo is ***clean*** without any modules or configuration but with all the template code you need to build your own version. 
 
 ## Links
 
-
-This how to link, it works both internal: [Basic info](/general/basic.md "The Basic info") and external: [Zenroom home](https://zenroom.org/) and this is simple external link  <https://zenroom.org/>, plain html works too.
-
-
-## Pics 
-
-Load a local pic like this: 
-
-![Ledger Logo](../media/general/LedgerLogo.png)
-
-Load an external pic like this: 
-
-![Zenroom Logo](https://zenroom.org/wp-content/uploads/2019/11/zenroom-1024x205.png)
-
+Technical documentation: [README](https://github.com/LedgerProject/BackMe.org_scraper-back-end/README.md) and our home: [BackMe.org](https://backme.org/).
