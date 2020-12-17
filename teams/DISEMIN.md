@@ -1,6 +1,6 @@
 ![AgroXM Logo](https://agro.exm.gr/wp-content/uploads/2020/12/logo-300x300.png)
 
-# AgroXM, a Distributed Secure Smart Farming Log
+# AgroXM · A Distributed Secure Smart Farming Log
 
 _formerly known as project **DISEMIN**_
 
