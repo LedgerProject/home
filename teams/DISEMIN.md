@@ -43,6 +43,23 @@ The Android app is the end-user interface of the whole system. It communicates w
 
 You can read more about each module in their respective repo.
 
+## Demo
+
+A demo setup of the AgroXM solution has been deployed for the sake of the Ledger project.
+
+- The IoT platform is running here: [http://demo.agro.exm.gr:9090](http://demo.agro.exm.gr:9090)
+
+- The middleware application is running here: [http://demo.agro.exm.gr:8080](http://demo.agro.exm.gr:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)
+
+- A binary apk file for the android app can be found under the repo's [releases section](https://github.com/LedgerProject/disemin-android/releases).
+
+The demo credentials for logging in the app (or the platform) are:
+
+```
+username = demo@exm.gr
+password = demo123
+```
+
 ## Attribution 
 
 Built using open source software, with the help of the Ledger EU project and their fantastic people!
