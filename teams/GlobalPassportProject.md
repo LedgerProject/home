@@ -1,5 +1,5 @@
 # The Global Passport Project
-![Global Passport Project Logo](https://github.com/LedgerProject/GPP_backend/blob/main/logo.png)
+![Global Passport Project Logo](https://raw.githubusercontent.com/LedgerProject/GPP_backend/main/logo.png)
 
 Global Passport Project is a breakthrough initiative that leverages on decentralized technology to support mixed migrants along their journey, protect their privacy while reporting human rights violations, and engage them as citizens integrating in their new communities. GPP will also enormously improve the capacity of NGOs and social enterprises to reach out to migrants and design their actions, thus streamlining their resources and improving their performance and records when applying for funds and calls.
 
@@ -16,9 +16,20 @@ The platform is designed WITH migrants rather than FOR migrants: they are the ma
 
 It is meant to serve as an innovative tool also for the third sector (NGOs, aid agencies) to access information and first-hand data that go beyond government control and a useful tool to improve and strengthen their interventions. GPP may also contribute to an in-depth reconsideration of the operational modalities which are very often blamed for adopting a top-down approach. The possibility to receive detailed information and to be able to directly get in contact with their targets and potential beneficiaries will allow to improve the effectiveness and efficiency of their actions, and ensure a streamlined use of the resources.
 
+## Team
+
+* Clara Capelli is an economic development expert formerly based in the Middle East and North Africa (MENA) region. For GPP she will take care of business development and scalability of the project.
+* Antonio Dibattista is a software developer with twenty years' experience in developing apps with a wide range of tools and software languages and he is highly competent on mobile app software. He will develop the IT structure and implement its operativity. 
+* Maria Tavernini is an independent field researcher and communication expert who has been based in India for the past eight years. For GPP, she will coordinate the editorial work, mapping of solidarity structures and migration routes. 
+* Alessandro Di Rienzo has followed Middle Eastern events, labour disputes and migration issues as a journalist and as social mediator. For Global Passport Project he will take care of relations with municipalities and participatory democracy processes.
+* Giuseppe Ottaviano is a citizen journalism expert, he is the communication manager at different NGOs working on migration. He will be in charge of communication, press office and marketing 
+* Francesco Delia is a professional photographer and videomaker. For the GPP, he takes care of the development of the self-narration video tutorials for migrants and will provide graphic identity
+* Elena De Filippo is professor of Sociology of Migrations at the Faculty of Sociology of the Federico II University of Naples, President of the Dedalus Social Cooperative. 
+The members of Kosmopolis Association will be in charge of different and specific articulations and needs of the project.
+
 ## The Technology
 
-We plan to use the following technologies but we are evaluating alternative components with existing decentralized technologies and are open for discussion:
+We plan to use the following technologies:
 
  - Node.js, Loopback4, Typescript, PostgreSQL (back-end)
  - Angular 9, CoreUI, Typescript (front-end)
@@ -39,20 +50,15 @@ We plan to use the following technologies but we are evaluating alternative comp
  - It requires Angular 9 or above.
  - It connects to GPP_backend to call the available endpoints.
 
-## Misc
+## Service Portal
 
-This stuff  **is in bold** and this is ***in italic*** 
+The third sector operator service portal is available at the following link:
 
-## Links
+[Global Passport Project - Service Portal](https://www.globalpassportproject.org)
 
-This how to link, it works both internal: [Basic info](/general/basic.md "The Basic info") and external: [Zenroom home](https://zenroom.org/) and this is simple external link  <https://zenroom.org/>, plain html works too.
+You can register as third sector operator and try how work the portal or login with these demo credentials:
 
-## Pics 
+E-Mail: johndoe@demo.org
+Password: demo2020
 
-Load a local pic like this: 
-
-![Ledger Logo](../media/general/LedgerLogo.png)
-
-Load an external pic like this: 
-
-![Zenroom Logo](https://zenroom.org/wp-content/uploads/2019/11/zenroom-1024x205.png)
+If you need access as a Global Passport Project operator, please ask the secret key to [dev@kosmopolis.me](mailto:dev@kosmopolis.me)
