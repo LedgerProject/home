@@ -13,9 +13,10 @@
   - **[ConDIDI](/teams/ConDIDI.md)**
    - [Repo1](https://github.com/DECODEproject/zenroom/)
    - [Repo2](https://github.com/DECODEproject/decode-os)
-  - **[Distributed Secure Smart Farming Log (DISEMIN)](/teams/DISEMIN.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+  - **[AgroXM · Distributed Secure Smart Farming Log (DISEMIN)](/teams/DISEMIN.md)**
+   - [disemin-platform](https://github.com/LedgerProject/disemin-platform)
+   - [disemin-middleware](https://github.com/LedgerProject/disemin-middleware)
+   - [disemin-android](https://github.com/LedgerProject/disemin-android)
   - **[Escholltul](/teams/Escholltul.md)**
    - [Repo1](https://github.com/DECODEproject/zenroom/)
    - [Repo2](https://github.com/DECODEproject/decode-os)
