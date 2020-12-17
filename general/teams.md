@@ -8,9 +8,9 @@ Backme is a new way for content creators to build their own community and earn m
  recurring donations, collaborate with other content creators and explore new business2business opportunities. This in respect of the privacy of their individual
  fans and in way that is ethical and sustainable. What we try to achieve with Backme is that there can be an internet without the need for advertising revenue’s or paywall's. 
  
- <!--- [Ahmed](https://github.com/andrea-dintino): Architecture, Algorithms, Cryptography, UX/Wireframing, DevOps, Project Mgmt-->
- - Ahmed
- - Jan
+ - Ahmed: Project leader
+ - Jan: Media relationship
+ - [Julianus](https://oxjno.com/): Architecture and development
  
 ### ConDIDI
 ConDIDi will develop the full lifecycle for digital conference credentials. Our first application is to allow conference participants to easily demonstrate their level of involvement at scientific conferences using the technology of self-sovereign identity and verifiable credentials. However this technology is not restricted to conferences only, instead it can be used for any kind of credentials.

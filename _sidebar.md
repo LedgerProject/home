@@ -9,8 +9,7 @@
 
  Projects and Repos
   - **[backme.org](/teams/backme.org.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+   - [Repo1](https://github.com/LedgerProject/BackMe.org_scraper-back-end)
   - **[ConDIDI](/teams/ConDIDI.md)**
    - [Repo1](https://github.com/DECODEproject/zenroom/)
    - [Repo2](https://github.com/DECODEproject/decode-os)
@@ -22,11 +21,10 @@
    - [Repo1](https://github.com/DECODEproject/zenroom/)
    - [Repo2](https://github.com/DECODEproject/decode-os)
   - **[Gene Coop](/teams/GeneCoop.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+   - [GeneCoop](https://github.com/LedgerProject/GeneCoop/)
   - **[Global Passport Project](/teams/GlobalPassportProject.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+   - [GPP_backend](https://github.com/LedgerProject/GPP_backend)
+   - [GPP_frontend](https://github.com/LedgerProject/GPP_frontend)
   - **[LiV](/teams/LiV.md)**
    - [Repo1](https://github.com/DECODEproject/zenroom/)
    - [Repo2](https://github.com/DECODEproject/decode-os)
