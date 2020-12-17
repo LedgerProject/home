@@ -23,8 +23,8 @@
    - [Repo1](https://github.com/DECODEproject/zenroom/)
    - [Repo2](https://github.com/DECODEproject/decode-os)
   - **[Global Passport Project](/teams/GlobalPassportProject.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+   - [GPP_backend](https://github.com/LedgerProject/GPP_backend)
+   - [GPP_frontend](https://github.com/LedgerProject/GPP_frontend)
   - **[LiV](/teams/LiV.md)**
    - [Repo1](https://github.com/DECODEproject/zenroom/)
    - [Repo2](https://github.com/DECODEproject/decode-os)
