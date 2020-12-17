@@ -11,8 +11,8 @@
   - **[backme.org](/teams/backme.org.md)**
    - [Repo1](https://github.com/LedgerProject/BackMe.org_scraper-back-end)
   - **[ConDIDI](/teams/ConDIDI.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+   - [ConDIDi_frontend](https://github.com/LedgerProject/ConDIDI_frontend/)
+   - [Prototype / Demonstrator](https://labs.tib.eu/condidi/)
   - **[AgroXM · Distributed Secure Smart Farming Log (DISEMIN)](/teams/DISEMIN.md)**
    - [disemin-platform](https://github.com/LedgerProject/disemin-platform)
    - [disemin-middleware](https://github.com/LedgerProject/disemin-middleware)
