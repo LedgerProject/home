@@ -5,7 +5,7 @@ Citizen cooperative that provides fine-grained user controlled access and inform
 ## The Technology
  - Django
  - Zenroom/Hyperledger
- - LabSpace platform at SURF. It consists of the SURF research cloud and federated identity access management system. On top of this cloud infrastructure we have a DNA test and QA/QC service where we can link identifiers for data curation. These identifiers are a key part of the total system architecture and need to be linked to the smart consent contract ledger services.d to be linked to the smart consent contract ledger services.o test the services we use the LabSpace platform at SURF.  smart consent contract ledger services.d to be linked to the smart consent contract ledger services.o test the services we use the LabSpace platform at SURF.
+ - LabSpace platform at SURF. It consists of the SURF research cloud and federated identity access management system. On top of this cloud infrastructure we have a DNA test and QA/QC service where we can link identifiers for data curation. These identifiers are a key part of the total system architecture and need to be linked to the consent services we develop.
 
 ## The Repos
 
@@ -18,4 +18,4 @@ The purpose of this demonstrator is to help us figure out the essential technica
 In a later stage of development parts of this demonstrator can be replaced by other technology, for example something based on the decode app.
 
 ## Links
-The demonstrator test server is located [here](http://135.181.106.35/)
+The demonstrator interfaces are located [here](http://135.181.106.35/request) and [here](http://135.181.106.35/consent)
