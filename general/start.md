@@ -9,7 +9,7 @@ Ledger an EU funded project, empowers people to solve problems using decentralis
  - [BackMe.org](/teams/backme.org.md)
  - [ConDIDI](/teams/ConDIDI.md)
  - [DISEMIN](/teams/DISEMIN.md)
- - [Escholltul](/teams/Escholltul.md)
+ - [Eschooltul](/teams/Eschooltul.md)
  - [GeneCoop](/teams/GeneCoop.md)
  - [GlobalPassportProject](/teams/GlobalPassportProject.md)
  - [LiV](/teams/LiV.md)
