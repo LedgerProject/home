@@ -18,4 +18,4 @@ The purpose of this demonstrator is to help us figure out the essential technica
 In a later stage of development parts of this demonstrator can be replaced by other technology, for example something based on the decode app.
 
 ## Links
-The demonstrator interfaces are located [here](http://135.181.106.35/request) and [here](http://135.181.106.35/consent)
+The demonstrator interfaces are located [here](https://genecoop.waag.org/request) and [here](https://genecoop.waag.org/consent)
