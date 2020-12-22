@@ -36,7 +36,7 @@ We decided to enter the agricultural space, with our open IoT solutions and the 
  - Nikos: hw dev
  - Peris: sw dev
  
-### Escholltul
+### Eschooltul
 Eschooltul is a tool that serves families, institutions and schools by providing sovereign control over children's sensitive data.
 We secure the Students’ Digital Files by recording the accesses to it, and storing hashes of its contents in a Blockchain in order to guarantee the integrity of the data. In the future, Eschooltul also intends to store the original data on the Blockchain, to facilitate interoperability.
 

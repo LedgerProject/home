@@ -9,31 +9,28 @@
 
  Projects and Repos
   - **[backme.org](/teams/backme.org.md)**
-   - [Repo1](https://github.com/LedgerProject/BackMe.org_scraper-back-end)
+		- [Repo_Backend](https://github.com/LedgerProject/BackMe.org_scraper-back-end)
   - **[ConDIDI](/teams/ConDIDI.md)**
-   - [ConDIDi_frontend](https://github.com/LedgerProject/ConDIDI_frontend/)
-   - [Prototype / Demonstrator](https://labs.tib.eu/condidi/)
+		- [ConDIDi_frontend](https://github.com/LedgerProject/ConDIDI_frontend/)
+		- [Prototype / Demonstrator](https://labs.tib.eu/condidi/)
   - **[AgroXM · Distributed Secure Smart Farming Log (DISEMIN)](/teams/DISEMIN.md)**
-   - [disemin-platform](https://github.com/LedgerProject/disemin-platform)
-   - [disemin-middleware](https://github.com/LedgerProject/disemin-middleware)
-   - [disemin-android](https://github.com/LedgerProject/disemin-android)
-  - **[Escholltul](/teams/Escholltul.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+		- [Disemin_platform](https://github.com/LedgerProject/disemin-platform)
+		- [Disemin_middleware](https://github.com/LedgerProject/disemin-middleware)
+		- [Disemin_android](https://github.com/LedgerProject/disemin-android)
+  - **[Eschooltul](/teams/Eschooltul.md)**
+		- [Eschooltul_Backend](https://github.com/LedgerProject/eschooltul_backend)
   - **[Gene Coop](/teams/GeneCoop.md)**
-   - [GeneCoop](https://github.com/LedgerProject/GeneCoop/)
+		- [GeneCoop_Repo](https://github.com/LedgerProject/GeneCoop/)
   - **[Global Passport Project](/teams/GlobalPassportProject.md)**
-   - [GPP_backend](https://github.com/LedgerProject/GPP_backend)
-   - [GPP_frontend](https://github.com/LedgerProject/GPP_frontend)
+		- [GPP_backend](https://github.com/LedgerProject/GPP_backend)
+		- [GPP_frontend](https://github.com/LedgerProject/GPP_frontend)
   - **[LiV](/teams/LiV.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+		- [LiV_backend](https://github.com/LedgerProject/LiV_backend)
+		- [LiV_frontend](https://github.com/LedgerProject/LiV_frontend)
   - **[Orvium](/teams/Orvium.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+		- [Orvium_frontend](https://github.com/LedgerProject/orvium-frontend)
   - **[Smart Consent](/teams/SmartConsent.md)**
-   - [Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Repo2](https://github.com/DECODEproject/decode-os)
+		- [Eprocessmed_app](https://github.com/LedgerProject/eprocessmed-smc-app)
  
  Misc
  - [Powered by Docsify](https://docsify.js.org/)
