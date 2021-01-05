@@ -36,7 +36,6 @@ This how to link, it works both internal: [Basic info](/general/basic.md "The Ba
 
 ## FRONTEND 
 
-
 **SMART CONSENT**
 
 ![](../media/teams/smartconsent/1.jpg)
