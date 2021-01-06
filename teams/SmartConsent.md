@@ -34,9 +34,9 @@ This stuff  **is in bold** and this is ***in italic***
 This how to link, it works both internal: [Basic info](/general/basic.md "The Basic info") and external: [Zenroom home](https://zenroom.org/) and this is simple external link  <https://zenroom.org/>, plain html works too.
 
 
-## FRONTEND 
+## FRONTEND SMART CONSENT
 
-**SMART CONSENT**
+
 
 ![](../media/teams/smartconsent/1.jpg)
 
