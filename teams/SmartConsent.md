@@ -19,8 +19,8 @@ Use of API-REST in express with Nodejs and Blockchain API Alastria. And Angular
 
 ## Links
 
-Application link: [E-processmed](https://e-processmed.com/)
-Repository link: [Repo](https://github.com/LedgerProject/eprocessmed-smc-app)
+- Application link: [E-processmed](https://e-processmed.com/)
+- Repository link: [Repo](https://github.com/LedgerProject/eprocessmed-smc-app)
 
 
 
