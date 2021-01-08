@@ -5,33 +5,23 @@ eHealth startup focused exclusively on the digitization of medical processes, ha
 
 ## The Technology
 
-Use of webservices and Blockchain API
+Use of API-REST in express with Nodejs and Blockchain API Alastria. And Angular
 
-## The Repos
 
-Write here:  
- - The link to each repo
- - What each repo does 
- - The requirement of each repo
- - How the repos interact with each other
-
-Examples: 
-
-###  Repo-Backend
- - [Repo-Backend](https://github.com/deCODEproject/zenroom)
- - ***Repo-Backend*** does basic cryptography and contains most of the business logic
- - It requires Node-JS 14 or above
- - It connects to Repo-MongoDB and with Repo-FrontEnd
+###  Repository 
  
+ - In "smart-consent" is the new frontend structure 
+ - In "api_df_middleware" is a business middle layer
+ - In "api_df_back" contains the data models
+ - In "apiblockchain" It contains an api that gives access 
+   to the frontend to interact with the Alastria blockchain.
 
-## Misc
-
-This stuff  **is in bold** and this is ***in italic*** 
 
 ## Links
 
+- Application link: [E-processmed](https://e-processmed.com/)
+- Repository link: [Repo](https://github.com/LedgerProject/eprocessmed-smc-app)
 
-This how to link, it works both internal: [Basic info](/general/basic.md "The Basic info") and external: [Zenroom home](https://zenroom.org/) and this is simple external link  <https://zenroom.org/>, plain html works too.
 
 
 ## FRONTEND 
