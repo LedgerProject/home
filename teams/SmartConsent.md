@@ -10,7 +10,7 @@ Use of webservices and Blockchain API
 ## The Repos
 
 Write here:  
- - The link to each repo
+ - The link to each repository
  - What each repo does 
  - The requirement of each repo
  - How the repos interact with each other
