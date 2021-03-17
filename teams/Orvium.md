@@ -23,6 +23,12 @@ Orvium makes it very simple to create and manage open access journals. The goal 
  - This is the browser application
  - NodeJs 12+ and npm
 
+### Backend
+- [Source code](https://github.com/LedgerProject/orvium-backend)
+ - This is the backend application for the Orvium service
+ - NodeJs 12+ and npm
+ - MongoDB for data persistance (in Docker for example)
+
 
 <img width="200" alt="Orvium logo" src="https://docs.orvium.io/newlogo.png">
 
