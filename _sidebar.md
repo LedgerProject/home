@@ -24,6 +24,7 @@
   - **[Global Passport Project](/teams/GlobalPassportProject.md)**
 	- [GPP_backend](https://github.com/LedgerProject/GPP_backend)
 	- [GPP_frontend](https://github.com/LedgerProject/GPP_frontend)
+	- [GPP_app](https://github.com/LedgerProject/GPP_app)
   - **[LiV](/teams/LiV.md)**
 	- [LiV_backend](https://github.com/LedgerProject/LiV_backend)
 	- [LiV_frontend](https://github.com/LedgerProject/LiV_frontend)
