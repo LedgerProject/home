@@ -15,8 +15,9 @@ Given the criticality of the data handled, the main technological requirement is
 
 From a technological point of view, we are going to use the following stack:
 
-- Backend: [Ruby on Rails](https://rubyonrails.org/)
-- Database: [PostgreSQL](https://www.postgresql.org/)
+- We are using Ruby and [Ruby on Rails Framework](https://rubyonrails.org/) (v6.1) for the application. 
+- For the Database we are using [PostgreSQL](https://www.postgresql.org/) (v11).
+- For the server we are using a Digital Ocean droplet with [Dokku](https://github.com/dokku/dokku). We have SSL through letsencrypt. 
 - Blockchain and SmartContracts: [Hyperledger Sawtooth](https://www.hyperledger.org/use/sawtooth) and [Zenroom](https://zenroom.org/). For the moment we only use [apiroom](https://apiroom.net/) with sawroom connector in order to write and read data into/from the Blockchain.
 
 For the moment, we do not have mobile application, only web application. 
@@ -27,7 +28,6 @@ For the moment, we do not have mobile application, only web application.
  - [Eschooltul-Backend](https://github.com/LedgerProject/eschooltul_backend): MVC Rails application that connects to Zenroom
  - It requires Node-JS 14 or above
  - It requires Ruby on rails 6.X and PostgreSQL >= 11.X
-
 
 ## Links
 

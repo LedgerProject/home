@@ -50,6 +50,12 @@ We plan to use the following technologies:
  - It requires Angular 9 or above.
  - It connects to GPP_backend to call the available endpoints.
 
+###  GPP_app
+ - [GPP_app](https://github.com/LedgerProject/GPP_app)
+ - ***GPP_app*** mobile application for GPP available for Android and iOS with two main functionalities: the "DocWallet" and "Where I Am" sections.
+ - It requires React Native.
+ - It connects to GPP_backend to call the available endpoints.
+
 ## Service Portal
 
 The third sector operator service portal is available at the following link:

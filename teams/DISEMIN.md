@@ -1,6 +1,6 @@
 ![AgroXM Logo](https://agro.exm.gr/wp-content/uploads/2020/12/logo-300x300.png)
 
-# AgroXM, a Distributed Secure Smart Farming Log
+# AgroXM · A Distributed Secure Smart Farming Log
 
 _formerly known as project **DISEMIN**_
 
@@ -42,6 +42,23 @@ The middleware runs on Java. It's very lightweight and can be run in parallel wi
 The Android app is the end-user interface of the whole system. It communicates with the middleware and acts both as a farmer's log, where the farmer can manually input activities and other field-related notes, as well as a full farm monitoring solution, where the farmer can view data from the weather stations and/or other sensors that are deployed in the field.
 
 You can read more about each module in their respective repo.
+
+## Demo
+
+A demo setup of the AgroXM solution has been deployed for the sake of the Ledger project.
+
+- The IoT platform is running here: [http://demo.agro.exm.gr:9090](http://demo.agro.exm.gr:9090)
+
+- The middleware application is running here: [http://demo.agro.exm.gr:8080](http://demo.agro.exm.gr:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)
+
+- A binary apk file for the android app can be found under the repo's [releases section](https://github.com/LedgerProject/disemin-android/releases).
+
+The demo credentials for logging in the app (or the platform) are:
+
+```
+username = demo@exm.gr
+password = demo123
+```
 
 ## Attribution 
 

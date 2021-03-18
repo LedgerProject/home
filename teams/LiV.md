@@ -11,38 +11,14 @@ Further assessment of existing LEDGER components and developments needs to be do
 
 ## The Repos
 
-Write here:  
- - The link to each repo
- - What each repo does 
- - The requirement of each repo
- - How the repos interact with each other
-
-Examples: 
-
-###  Repo-Backend
- - [Repo-Backend](https://github.com/deCODEproject/zenroom)
- - ***Repo-Backend*** does basic cryptography and contains most of the business logic
- - It requires Node-JS 14 or above
- - It connects to Repo-MongoDB and with Repo-FrontEnd
+### LiV_backend
+ - [LiV_backend](https://github.com/LedgerProject/LiV_backend)
+ - ***LiV_backend*** implements the necessary cryptographic functionality, connectivity modules for permissioned blockchain network and REST API for integration with the frontend application
+ - It requires JRE or JDK version 1.8.0_271
+ - It communicates with LiV_frontend
  
-
-## Misc
-
-This stuff  **is in bold** and this is ***in italic*** 
-
-## Links
-
-
-This how to link, it works both internal: [Basic info](/general/basic.md "The Basic info") and external: [Zenroom home](https://zenroom.org/) and this is simple external link  <https://zenroom.org/>, plain html works too.
-
-
-## Pics 
-
-Load a local pic like this: 
-
-![Ledger Logo](../media/general/LedgerLogo.png)
-
-Load an external pic like this: 
-
-![Zenroom Logo](https://zenroom.org/wp-content/uploads/2019/11/zenroom-1024x205.png)
-
+### LiV_frontend
+ - [LiV_frontend](https://github.com/LedgerProject/LiV_frontend)
+ - ***LiV_frontend*** 
+ - It requires Vue.js version 2.6.11 or higher
+ - It communicates with LiV_backend
