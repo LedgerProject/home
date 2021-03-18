@@ -1,21 +1,27 @@
 # The Gene Coop Project
 
-Citizen cooperative that provides fine-grained user controlled access and informed consent to genomic data for research.
+We provide a consent service for researchers that need to perform research using citizens DNA.
+
+The consent service allows DNA owner to retain control on how their DNA is used in the research for which it is needed.
+
+This service will be part of a citizen-based cooperative that collects DNA for genomic data research, and provides informed consent to its members and fine-grained controlled access for researchers.
 
 ## The Technology
- - Django
- - Zenroom/Hyperledger
- - LabSpace platform at SURF. It consists of the SURF research cloud and federated identity access management system. On top of this cloud infrastructure we have a DNA test and QA/QC service where we can link identifiers for data curation. These identifiers are a key part of the total system architecture and need to be linked to the consent services we develop.
-
+ - Back-end: Django/Python (served behind Nginx in production)
+ - Front-end: HTML/CSS and Javascript
+ - Cryptography: Zenroom used both in the front-end (with javascript binding and browserify) and in the back-end (python bindings)
+ 
 ## The Repos
 
 ### GeneCoop
 
 - [GeneCoop](https://github.com/LedgerProject/GeneCoop)
-The GeneCoop repo for now contains the Demonstrator Django web application. 
-It is a proof of concept that focuses on two users, the researcher and the 'dna owner'. 
-The purpose of this demonstrator is to help us figure out the essential technical challenges of the project. 
-In a later stage of development parts of this demonstrator can be replaced by other technology, for example something based on the decode app.
+The GeneCoop repo contains the Demonstrator Django web application. 
+This MVP focuses on two users, the researcher and the 'dna owner'. 
+The purpose of this demonstrator is to form a basis to engage stakeholders in discussion and testing. 
+Based on the insight gained by this and what we have learned by applying the technology, we will choose and implement what part of the demonstrator to improve.
+For example the storage is now on a simple database, but we are thinking about ledger-based approaches.
 
 ## Links
-The demonstrator interfaces are located [here](https://genecoop.waag.org/request) and [here](https://genecoop.waag.org/consent)
+The demonstrator interfaces are located [here](https://genecoop.waag.org/request) for the researcher and [here](https://genecoop.waag.org/consent) for the DNA user.
+Instructions on how to install the demonstrators are [here](https://github.com/LedgerProject/GeneCoop/tree/master/Demonstrator)
