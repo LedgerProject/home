@@ -1,3 +1,3 @@
-# Info about the shared repos will go here
+# Shared repos and middleware
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Here are the info about the components shared by different Ledger teams collaborating as well as middleware components designed to be embedded in third party products. 

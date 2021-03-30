@@ -2,10 +2,11 @@
   - [Basic info](/general/start.md "The Basic info")
   - [The Teams](/general/teams.md "The Teams") 
 
- Shared repos
-  - [Info](/general/shared-repos.md "Shared Repos") 
-   - [Shared-Repo1](https://github.com/DECODEproject/zenroom/)
-   - [Shared-Repo2](https://github.com/DECODEproject/decode-os)
+ Shared/middleware
+ - [Info](/general/shared-repos.md "Shared Repos") 
+  - [Keypairoom](https://github.com/LedgerProject/keypairoom)
+  - [BrowserExtension](https://github.com/LedgerProject/GeneCoop/tree/master/Demonstrator)
+  - [Arduino2IPFS](https://github.com/exmgr/ipfs-client-esp32)
 
  Projects and Repos
   - **[backme.org](/teams/backme.org.md)**
