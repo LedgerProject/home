@@ -5,7 +5,7 @@
  Shared/middleware
  - [Info](/general/shared-repos.md "Shared Repos") 
   - [Keypairoom](https://github.com/LedgerProject/keypairoom)
-  - [BrowserExtension](https://github.com/LedgerProject/GeneCoop/tree/master/Demonstrator)
+  - [ZenroomBrowserExtension](https://github.com/LedgerProject/zen-web-ext)
   - [Arduino2IPFS](https://github.com/LedgerProject/Disemin-ipfs-client-esp32)
 
 Projects and Repos - Round 2
