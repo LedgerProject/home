@@ -45,6 +45,9 @@ Projects and Repos - Round 2
   - **[Fairbnb](/teams/Fairbnb.md)**
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+  - **[Moncon](/teams/Moncon.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
   - **[NYM-B2B](/teams/NYM-B2B.md)**
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)

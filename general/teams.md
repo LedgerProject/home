@@ -119,6 +119,8 @@ eHealth startup focused exclusively on the digitization of medical processes, ha
 
 ### Fairbnb
 
+### Moncon
+
 ### NYM-B2B
 
 ### Patio

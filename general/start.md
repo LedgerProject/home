@@ -22,6 +22,7 @@ Ledger an EU funded project, empowers people to solve problems using decentralis
  - [Anastasis](/teams/Anastasis.md)
  - [/e/](/teams/e.md)
  - [Fairbnb](/teams/Fairbnb.md)
+ - [Moncon](/teams/Moncon.md)
  - [NYM-B2B](/teams/NYM-B2B.md)
  - [Patio](/teams/Patio.md)
  - [SafePKT](/teams/SafePKT.md)
