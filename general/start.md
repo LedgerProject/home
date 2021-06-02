@@ -15,5 +15,19 @@ Ledger an EU funded project, empowers people to solve problems using decentralis
  - [LiV](/teams/LiV.md)
  - [Orvium](/teams/Orvium.md)
  - [SmartConsent](/teams/SmartConsent.md)
+ 
+
+## The third round teams are:
+
+ - [Anastasis](/teams/Anastasis.md)
+ - [/e/](/teams/e.md)
+ - [Fairbnb](/teams/Fairbnb.md)
+ - [NYM-B2B](/teams/NYM-B2B.md)
+ - [Patio](/teams/Patio.md)
+ - [SafePKT](/teams/SafePKT.md)
+ - [Sensix](/teams/Sensix.md)
+ - [YouChoose](/teams/YouChoose.md)
+
+ 
 
 

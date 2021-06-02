@@ -2,6 +2,7 @@
 
 Find here the info about each team-member of every team.
 
+## The second round teams: 
 
 ### backme.org
 Backme is a new way for content creators to build their own community and earn money based on human-centric values. With Backme content creators can receive small
@@ -108,3 +109,23 @@ eHealth startup focused exclusively on the digitization of medical processes, ha
  - Sandra Duque: QA and test
  - Leila Perez: more than 20 years of experience in medical field
  - Cristina Garcia: Comunication & marketing
+
+## The third round teams: 
+
+
+### Anastasis
+
+### /e/
+
+### Fairbnb
+
+### NYM-B2B
+
+### Patio
+
+### SafePKT
+
+### Sensix
+
+### YouChoose
+

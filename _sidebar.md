@@ -8,7 +8,7 @@
   - [BrowserExtension](https://github.com/LedgerProject/GeneCoop/tree/master/Demonstrator)
   - [Arduino2IPFS](https://github.com/LedgerProject/Disemin-ipfs-client-esp32)
 
- Projects and Repos
+Projects and Repos - Round 2
   - **[backme.org](/teams/backme.org.md)**
     - [Repo_Backend](https://github.com/LedgerProject/BackMe.org_scraper-back-end)
   - **[ConDIDI](/teams/ConDIDI.md)**
@@ -33,6 +33,34 @@
 	- [Orvium_frontend](https://github.com/LedgerProject/orvium-frontend)
   - **[Smart Consent](/teams/SmartConsent.md)**
 	- [Eprocessmed_app](https://github.com/LedgerProject/eprocessmed-smc-app)
+
+
+ Projects and Repos - Round 3
+  - **[Anastasis](/teams/Anastasis.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+  - **[/e/](/teams/e.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+  - **[Fairbnb](/teams/Fairbnb.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+  - **[NYM-B2B](/teams/NYM-B2B.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+  - **[Patio](/teams/Patio.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+  - **[SafePKT](/teams/SafePKT.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+  - **[Sensix](/teams/Sensix.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+  - **[YouChoose](/teams/YouChoose.md)**
+    - [Zenroom](https://github.com/dyne/zenroom)
+	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+	
  
  Misc
  - [Powered by Docsify](https://docsify.js.org/)
