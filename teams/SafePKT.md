@@ -1,24 +1,28 @@
 # The  Project
 
-Describe the product/service
+SafePKT is a project to study and build static analysis technology for the Rust code
+used in the PKT project. PKT is a project for disintermediating telecom monopolies by
+de-coupling the roles of infrastructure operation from (internet) service provision.
+PKT uses a blockchain based on the bitcoin protocol and a proof of work algorithm called
+PacketCrypt which requires bandwidth in order to mine. The vision of PacketCrypt is to
+drive investment into network infrastructure by creating artificial demand for
+bandwidth.
+
+You can find out more about the overall PKT project by going to: https://pkt.cash/
 
 ## The Technology
 
-Describe your tech
+The technology of SafePKT in particular is not developed yet, but the technology of PKT
+overall includes [PacketCrypt](https://pkt.cash/PacketCrypt-2020-09-04.pdf)
+bandwidth-hard proof of work, [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network),
+and [cjdns](https://github.com/cjdelisle/cjdns) networking protocol.
 
 ## The Repos
 
-Write 2 lines about your different repos 
-Write 2 lines about your different repos 
+Will be completed as SafePKT project develops.
 
 ### Generic_backend
- - [Zenroom](https://github.com/dyne/zenroom)
- - ***Zenroom*** Crypto VM for blockchain and databases
- - Makes coffee
- - Makes candyfloss
+ - Will be completed as SafePKT project develops.
  
 ### Generic_frontend
- - [DECODE APP](https://github.com/dyne/decode-proximity-app)
- - ***DECODE App*** React-native app, built for cryptography
- - Makes pizza
- - Makes fries
+ - Will be completed as SafePKT project develops.
