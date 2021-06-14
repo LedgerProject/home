@@ -4,6 +4,9 @@ Researchers have to publish papers to share their findings, making scientific pu
 
 Orvium makes it very simple to create and manage open access journals. The goal is that every university, research lab, or group of researchers, can create high quality journals with just a few clicks.
 
+- [Website](https://orvium.io/)
+- [Blog](https://blog.orvium.io/)
+
 
 ## The Technology
 
