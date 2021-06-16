@@ -6,6 +6,7 @@ Orvium makes it very simple to create and manage open access journals. The goal 
 
 - [Website](https://orvium.io/)
 - [Blog](https://blog.orvium.io/)
+- [App](https://dapp.orvium.io/)
 
 
 ## The Technology
@@ -32,6 +33,11 @@ Orvium makes it very simple to create and manage open access journals. The goal 
  - NodeJs 12+ and npm
  - MongoDB for data persistance (in Docker for example)
 
+ ### UX components
+- [Source code](https://github.com/LedgerProject/orvium-ux)
+ - This is a library that contains our UX components and a demo application to test them. It is used by the Orvium Frontend.
+ - NodeJs 12+ and npm
+ 
 
 <img width="200" alt="Orvium logo" src="https://docs.orvium.io/newlogo.png">
 
