@@ -2,7 +2,7 @@
 
 Eschooltul is a tool that serves families, institutions and schools by providing sovereign control over children's sensitive data.
 
-We secure the Students’ Digital Files by recording the accesses to it, and storing hashes of its contents in a Blockchain in order to guarantee the integrity of the data. 
+We secure the Students’ Digital Record ([SDRs](https://administracionelectronica.gob.es/cise/1606/activosSemanticos))  by recording the accesses to it, and storing hashes of its contents in a Blockchain in order to guarantee the integrity of the data. 
 
 In the future, Eschooltul also intends to store the original data on the Blockchain (maybe using [IPFS](https://ipfs.io/)), to facilitate interoperability.
 
@@ -20,7 +20,7 @@ From a technological point of view, we are going to use the following stack:
 - For the server we are using a Digital Ocean droplet with [Dokku](https://github.com/dokku/dokku). We have SSL through letsencrypt. 
 - Blockchain and SmartContracts: [Hyperledger Sawtooth](https://www.hyperledger.org/use/sawtooth) and [Zenroom](https://zenroom.org/). For the moment we only use [apiroom](https://apiroom.net/) with sawroom connector in order to write and read data into/from the Blockchain.
 
-For the moment, we do not have mobile application, only web application. 
+For the moment, we do not have mobile application, only webapp. 
 
 ## The Repos
 
@@ -31,7 +31,8 @@ For the moment, we do not have mobile application, only web application.
 
 ## Links
 
-If you want to access to the application you have to go to [https://eschooltul.com/](https://eschooltul.com/)
+- Landing page: [https://eschooltul.com](https://eschooltul.com)
+- Web Application: [https://portal.eschooltul.com](https://portal.eschooltul.com)
 
 ![Ledger Logo](https://ledgerproject.eu/wp-content/uploads/2019/09/logo-l-h.png)
 
