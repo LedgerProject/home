@@ -4,24 +4,37 @@ We provide a consent service for researchers that need to perform research using
 
 The consent service allows DNA owner to retain control on how their DNA is used in the research for which it is needed.
 
-This service will be part of a citizen-based cooperative that collects DNA for genomic data research, and provides informed consent to its members and fine-grained controlled access for researchers.
+This service will be part of a citizen-based cooperative that collects DNA for genomic data research, 
+and provides informed consent to its members and fine-grained controlled access for researchers.
 
 ## The Technology
  - Back-end: Django/Python (served behind Nginx in production)
  - Front-end: HTML/CSS and Javascript
+ - Front-end: Web extensions to be installed in the browser (Firefox)
  - Cryptography: Zenroom used both in the front-end (with javascript binding and browserify) and in the back-end (python bindings)
+ - Consent format: W3C [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) to support (semantic) interoperability of our approach.
  
 ## The Repos
 
 ### GeneCoop
 
-- [GeneCoop](https://github.com/LedgerProject/GeneCoop)
-The GeneCoop repo contains the Demonstrator Django web application. 
+GeneCoop [repo](https://github.com/LedgerProject/GeneCoop) contains the Demonstrator Django web application and the web extensions.
+
 This MVP focuses on two users, the researcher and the 'dna owner'. 
-The purpose of this demonstrator is to form a basis to engage stakeholders in discussion and testing. 
-Based on the insight gained by this and what we have learned by applying the technology, we will choose and implement what part of the demonstrator to improve.
-For example the storage is now on a simple database, but we are thinking about ledger-based approaches.
+
+We have made considerable use of cryptography to minimize personal data we collect and to build an architecture that can be trusted, 
+trust being a fundamental part of our interaction with users.
+
+We also implemented a stardard form of representing our consent with the adoption of W3C VC. 
+This has been done in order to minimize the dependency of our consent solution from any technology and create an open environment 
+that should encourage third parties to collaborate with us.
 
 ## Links
-The demonstrator interfaces are located [here](https://genecoop.waag.org/request) for the researcher and [here](https://genecoop.waag.org/consent) for the DNA user.
-Instructions on how to install the demonstrators are [here](https://github.com/LedgerProject/GeneCoop/tree/master/Demonstrator)
+Instructions on how to install the demonstrator and how to operate it are [here](https://github.com/LedgerProject/GeneCoop/tree/master/Demonstrator).
+
+The project website is [here](https://geneconsent.eu).
+
+The online demo is [here](https://genecoop.waag.org). From that page you can access the two user interfaces of the project:
+- the researcher [interface](https://genecoop.waag.org/request)
+- the DNA donor [interface](https://genecoop.waag.org/consent).
+
