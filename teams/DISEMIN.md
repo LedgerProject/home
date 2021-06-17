@@ -79,7 +79,7 @@ A demo setup of the AgroXM solution has been deployed for the sake of the Ledger
 
 - The web frontend application is running here: [http://agro.exm.gr](http://agro.exm.gr)
 
-- The Android app is currently distributed using Firebase Distribution and can be downloaded [here](https://appdistribution.firebase.dev/i/eb2c04a656c76602). The demo credentials for logging in the android app (or the IoT platform) are:
+- You can find binary apk files of the Android app on the repo's [releases page](https://github.com/exmgr/disemin-android/releases). You can also subscribe to Firebase distribution [here](https://appdistribution.firebase.dev/i/eb2c04a656c76602) in order to receive future app updates. The demo credentials for logging in the android app (or the IoT platform) are:
 
 ```
 username = demo@exm.gr
