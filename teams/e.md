@@ -1,24 +1,23 @@
-# The  Project
+# /e/ - Privacy Central app
 
-Describe the product/service
+/e/ an operating system which respect its user privacy!
+
+That why we target to embed a Privacy Central app, in order to let users have a good understanding of what happen with the third party applications they are using. And, in addition, give them tools to protect they privacy.
+
+For the Ledger project, we focus mainly on two features:
+1. Tracker blocker: let the user see all analyse and block trackers
+2. IP scrambling: let user being able to hide their IP
 
 ## The Technology
 
-Describe your tech
+### Tracker blocker
+
+It relies on a local DNS proxy in order to analyse and block DNS requests. 
+
+### IP scrambling
+
+We will use the Tor network in order to hide the user IP
 
 ## The Repos
 
-Write 2 lines about your different repos 
-Write 2 lines about your different repos 
-
-### Generic_backend
- - [Zenroom](https://github.com/dyne/zenroom)
- - ***Zenroom*** Crypto VM for blockchain and databases
- - Makes coffee
- - Makes candyfloss
- 
-### Generic_frontend
- - [DECODE APP](https://github.com/dyne/decode-proximity-app)
- - ***DECODE App*** React-native app, built for cryptography
- - Makes pizza
- - Makes fries
+We are using a single repo to host the Android application
