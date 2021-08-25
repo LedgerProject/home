@@ -1,23 +1,23 @@
 # /e/ - Privacy Central app
 
-/e/ an operating system which respect its user privacy!
+/e/ is an Android operating system which respect its users’ privacy!
 
-That why we target to embed a Privacy Central app, in order to let users have a good understanding of what happen with the third party applications they are using. And, in addition, give them tools to protect they privacy.
+That is why, as part of the LEDGER program, we are developing a “Privacy Central app”. This app will let Android users have a good understanding of the privacy concerns that exist around applications they are using. And, in addition, it will give them tools to protect their privacy.
 
-For the Ledger project, we focus mainly on two features:
-1. Tracker blocker: let the user see all analyse and block trackers
-2. IP scrambling: let user being able to hide their IP
+For the LEDGER project, we focus mainly on two features:
+1. Tracker blocker: this feature lets the user see, analyse and block trackers in apps
+1. IP scrambling: this features lets users hide their IP
 
 ## The Technology
 
 ### Tracker blocker
 
-It relies on a local DNS proxy in order to analyse and block DNS requests. 
+The tracker blocker relies on a local DNS proxy in order to analyse and block DNS requests.
 
 ### IP scrambling
 
-We will use the Tor network in order to hide the user IP
+We will use the Tor network in order to let users hide their IP.
 
 ## The Repos
 
-We are using a single repo to host the Android application
+We are using a single repo to host the Android application.
