@@ -16,9 +16,20 @@ The technology of PKT overall includes [PacketCrypt](https://pkt.cash/PacketCryp
 bandwidth-hard proof of work, [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network),
 and [cjdns](https://github.com/cjdelisle/cjdns) networking protocol.
 
-SafePKT consists of two separate components: 
+SafePKT depends on the following technologies:
+ - Node.js, Typescript, Vue.js, NuxtJs (front-end)
+ - Rust, Docker engine, Rust Verification Tools, LLVM, KLEE (back-end)
+
+## The Repos
+
+SafePKT consists of two separate components:
  - the [SafePKT backend](https://github.com/LedgerProject/safepkt_backend) leveraging 
     - the [Rust Verification Tools](https://github.com/project-oak/rust-verification-tools),
       - the [KLEE Symbolic Execution Engine](http://klee.github.io/)
     - the [Docker Engine](https://www.docker.com/)
  - the [SafePKT frontend](https://github.com/LedgerProject/safepkt_frontend) based on [NuxtJS](https://nuxtjs.org/)
+
+A [third repository](https://github.com/LedgerProject/safepkt) has been created to ease both
+ - installation of the project and
+ - contribution to it.
+
