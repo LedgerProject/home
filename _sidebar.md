@@ -56,8 +56,9 @@ Projects and Repos - Round 2
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)
   - **[SafePKT](/teams/SafePKT.md)**
-    - [Backend](https://github.com/LedgerProject/safepkt_backend)
-    - [Frontend](https://github.com/LedgerProject/safepkt_frontend)
+    - [SafePKT](https://github.com/LedgerProject/safepkt)
+    - [SafePKT_backend](https://github.com/LedgerProject/safepkt_backend)
+    - [SafePKT_frontend](https://github.com/LedgerProject/safepkt_frontend)
   - **[Sensix](/teams/Sensix.md)**
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)
