@@ -53,8 +53,9 @@ Projects and Repos - Round 2
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)
   - **[Patio](/teams/Patio.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [PATIO_backend](https://github.com/LedgerProject/patio_backend)
+    - [PATIO_frontend](https://github.com/LedgerProject/patio_frontend)
+    - [PATIO_device_service](https://github.com/LedgerProject/patio_device_service)
   - **[SafePKT](/teams/SafePKT.md)**
     - [SafePKT](https://github.com/LedgerProject/safepkt)
     - [SafePKT_backend](https://github.com/LedgerProject/safepkt_backend)
