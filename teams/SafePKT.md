@@ -10,11 +10,25 @@ bandwidth.
 
 You can find out more about the overall PKT project by going to: https://pkt.cash/
 
+In the SafePKT project we are focused on improving software development efficiency
+(and therefore time to market) for software used within the PKT ecosystem
+(e.g. PacketCrypt / cjdns). As security breaches in cryptocurrency software often lead to
+irrecoverable loss, such projects have higher than normal security requirements. However
+in this innovative and competitive space, time to market is also a critical to a project's
+overall success. With the help of cutting edge research in the academic space, we are
+developing improved software verification tools which will be easier to use and more helpful
+to developers who will apply them to improving software development efficiency and security
+in projects within the PKT ecosystem.
+
 ## The Technology
 
 The technology of PKT overall includes [PacketCrypt](https://pkt.cash/PacketCrypt-2020-09-04.pdf)
 bandwidth-hard proof of work, [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network),
 and [cjdns](https://github.com/cjdelisle/cjdns) networking protocol.
+
+SafePKT technology consists of a web based frontend and server-side backend which work
+together to provide a software developer with reports about potential bugs or security
+issues in their code.
 
 SafePKT depends on the following technologies:
  - Node.js, Typescript, Vue.js, NuxtJs (front-end)
