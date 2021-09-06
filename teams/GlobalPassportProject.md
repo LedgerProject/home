@@ -19,7 +19,9 @@ It is meant to serve as an innovative tool also for the third sector (NGOs, aid 
 ## Team
 
 * Clara Capelli is an economic development expert formerly based in the Middle East and North Africa (MENA) region. For GPP she will take care of business development and scalability of the project.
-* Antonio Dibattista is a software developer with twenty years' experience in developing apps with a wide range of tools and software languages and he is highly competent on mobile app software. He will develop the IT structure and implement its operativity. 
+* Antonio Dibattista is a software developer with twenty years' experience in developing apps with a wide range of tools and software languages and he is highly competent on mobile app software. He will develop the IT structure and implement its operativity.
+* Pasquale Francavilla is a product owner and full-stack developer with ten years of experience in web development. He's a payment integration expert with a technical and business analysis background gained in banking and fintech domains.
+* Stefano Baldassarre is a front-end developer both the web and mobile fields with many years of experience. He will develop the project frontend both on the web and mobile side.
 * Maria Tavernini is an independent field researcher and communication expert who has been based in India for the past eight years. For GPP, she will coordinate the editorial work, mapping of solidarity structures and migration routes. 
 * Alessandro Di Rienzo has followed Middle Eastern events, labour disputes and migration issues as a journalist and as social mediator. For Global Passport Project he will take care of relations with municipalities and participatory democracy processes.
 * Giuseppe Ottaviano is a citizen journalism expert, he is the communication manager at different NGOs working on migration. He will be in charge of communication, press office and marketing 
@@ -33,7 +35,7 @@ We plan to use the following technologies:
 
  - Node.js, Loopback4, Typescript, PostgreSQL (back-end)
  - Angular 9, CoreUI, Typescript (front-end)
- - React Native, DECode App (mobile app)
+ - React Native, Typescript, DECode App (mobile app)
  - Restroom, Sawtooth, IPFS (blockchain)
 
 ## The Repos
@@ -52,7 +54,7 @@ We plan to use the following technologies:
 
 ###  GPP_app
  - [GPP_app](https://github.com/LedgerProject/GPP_app)
- - ***GPP_app*** mobile application for GPP available for Android and iOS with two main functionalities: the "DocWallet" and "Where I Am" sections.
+ - ***GPP_app*** mobile application for GPP available for Android and iOS with four main functionalities: the "DocWallet", "AroundMe", "AbuseAlarm" and "News&Stories" sections.
  - It requires React Native.
  - It connects to GPP_backend to call the available endpoints.
 
@@ -60,11 +62,32 @@ We plan to use the following technologies:
 
 The third sector operator service portal is available at the following link:
 
-[Global Passport Project - Service Portal](https://www.globalpassportproject.org)
+[Global Passport Project - Service Portal](https://www.gppadmin.org)
 
 You can register as third sector operator and try how work the portal or login with these demo credentials:
 
-E-Mail: johndoe@demo.org
-Password: demo2020
+Name: John Doe
+E-Mail: operatorgpp@intuizionicreative.it
+Password: start2021!
 
-If you need access as a Global Passport Project operator, please ask the secret key to [dev@kosmopolis.me](mailto:dev@kosmopolis.me)
+## Mobile Application
+
+The mobile application is available at the following link:
+
+[Google Play Store](https://play.google.com/store/apps/details?id=com.kosmopolis.gpp)
+
+You can register as user and try how work the mobile application or login with these demo credentials:
+
+Name: Mary Doe
+E-Mail: usergpp@intuizionicreative.it
+Password: start2021!
+Answers:
+Where did your parents meet?  Paris
+What is your home town?       Naples
+What is your favorite dish?   Pizza
+
+## Website
+
+The Global Passport Project website is available at the following link:
+
+[Global Passport Project - Website](https://www.globalpassportproject.org)

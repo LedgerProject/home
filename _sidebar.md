@@ -1,10 +1,11 @@
  - Welcome
   - [Basic info](/general/start.md "The Basic info")
-  - [The Teams](/general/teams.md "The Teams") 
+  - [The Teams](/general/teams.md "The Teams")
 
  Shared/middleware
- - [Info](/general/shared-repos.md "Shared Repos") 
+ - [Info](/general/shared-repos.md "Shared Repos")
   - [Keypairoom](https://github.com/LedgerProject/keypairoom)
+  - [Keypairoom Demo](https://github.com/LedgerProject/keypairoom-demo)
   - [ZenroomBrowserExtension](https://github.com/LedgerProject/zen-web-ext)
   - [Arduino2IPFS](https://github.com/LedgerProject/Disemin-ipfs-client-esp32)
 
@@ -52,19 +53,22 @@ Projects and Repos - Round 2
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)
   - **[Patio](/teams/Patio.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [PATIO_backend](https://github.com/LedgerProject/patio_backend)
+    - [PATIO_frontend](https://github.com/LedgerProject/patio_frontend)
+    - [PATIO_device_service](https://github.com/LedgerProject/patio_device_service)
   - **[SafePKT](/teams/SafePKT.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [SafePKT](https://github.com/LedgerProject/safepkt)
+    - [SafePKT_backend](https://github.com/LedgerProject/safepkt_backend)
+    - [SafePKT_frontend](https://github.com/LedgerProject/safepkt_frontend)
   - **[Sensix](/teams/Sensix.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [Sensix PowerMap Frontend](https://github.com/LedgerProject/sensix-power-map-frontend)
+    - [Sensix PowerMap Backend](https://github.com/LedgerProject/sensix-power-map-backend)
+    - [Sensix PowerMonitor](https://github.com/LedgerProject/sensix-power-monitor)
   - **[YouChoose](/teams/YouChoose.md)**
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)
-	
- 
+
+
  Misc
  - [Powered by Docsify](https://docsify.js.org/)
  - [Contributing](/general/contributing.md)

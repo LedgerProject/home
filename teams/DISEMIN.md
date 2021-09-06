@@ -1,64 +1,26 @@
-![AgroXM Logo](https://agro.exm.gr/wp-content/uploads/2020/12/logo-300x300.png)
+[![AgroXM Logo](https://agroxm.com/wp-content/uploads/2020/12/logo.png)](https://agroxm.com)
 
-# AgroXM · A Distributed Secure Smart Farming Log
+# [AgroXM](https://agroxm.com) · A Distributed Secure Smart Farming Log
 
-_formerly known as project **DISEMIN**_
+_also known as project **DISEMIN**_
 
 
-Ex Machina is an IoT system integrator that serves industrial customers with environmental monitoring & predictive analytics solutions, using machine learning and modular hardware.
+Ex Machina is an IoT system integrator that serves industrial customers with environmental monitoring & predictive analytics solutions, using machine learning and own modular hardware.
 
-Like most Greeks, we have farmers in our family and we see that the farming digital transformation promise is derailing.  We see farmers losing control over their farming practices, becoming alienated from their work and having to adjust to technology and large corporations rather than the other way round.
+We aspire to build an environmental / weather / agriculture data marketplace where farmers and businesses can share data and consume services in a fair manner. Our IoT solution addresses typical precision agriculture requirements, with DLT powered IoT hardware. The sensor data are stored to immutable decentralized file system and made available to blockchain smart contracts, enabling services such as parametric weather crop insurance or data sales to be conducted in an economic and trustless manner. 
 
-To address the farm data sovereignty issues, we are introducing **AgroXM**, an open IoT solution for smart agriculture, aiming to become a data marketplace where farmers and advisors can share data and services in a fair manner.
+Core components and open-source deliverables of MVP:
 
-## The Technology
-
-We are providing a complete open source IoT solution that combines a farmer's log mobile application with crop sensor data and weather forecasts, using a distributed ledger built into the hardware, and a marketplace that will enable farmers and advisors to collaborate.
+1. IoT Sensor Node, extended to store sensor data in IPFS
+2. IoT PaaS, extended with various custom features to satisfy project goals with end user web dashboards, rule engine for 3rd system integrations, etc.
+3. Middleware API / IPFS / CHAINLINK adapter to handle DLT related operations
+3. Android mobile application integrated to IoT PaaS, that acts as a front-end for the end user / farmer on the go
+4. Smart Contract Factory & Marketplace, that implements a parametric weather crop insurance protection service.
 
 ## The Repos
 
-The solution consists of three modules:
-
-- [disemin-platform](https://github.com/LedgerProject/disemin-platform): a cutting edge IoT platform
-- [disemin-middleware](https://github.com/LedgerProject/disemin-middleware): a middleware server application for simplifying client operations with the IoT platform and facilitating the data sharing mechanisms that will be built in the future
-- [disemin-android](https://github.com/LedgerProject/disemin-android): a client mobile application for managing the farm's log and accessing all the sensor data
-
-### IoT Platform
-
-The IoT platform is a fork of the multi-starred open source project [Thingsboard](https://github.com/thingsboard/thingsboard). It facilitates the entire process of provisioning sensor devices, sending their measurements to the cloud, and finally post-processing and visualizing the data.
-
-The IoT platform runs on Java and the data store in a PostgreSQL database, and can run on any machine, from a RPi to any modern OS (Linux, Windows, MacOS). It can also deployed using docker, as microservices.
-
-### Middleware
-
-The middleware is essentially a proxy server that exposes a REST API, hiding the complexity of the IoT platform's own REST API, facilitating multiple use cases. Typically, such use cases involve batching operations that would require multiple REST API calls into one call, authentication, failover and rollback mechanisms.
-
-In future versions the middleware will hold all the smart-contract-related code that will facilitate the data marketplace.
-
-The middleware runs on Java. It's very lightweight and can be run in parallel with the IoT platform.
-
-### Android App
-
-The Android app is the end-user interface of the whole system. It communicates with the middleware and acts both as a farmer's log, where the farmer can manually input activities and other field-related notes, as well as a full farm monitoring solution, where the farmer can view data from the weather stations and/or other sensors that are deployed in the field.
-
-You can read more about each module in their respective repo.
-
-## Demo
-
-A demo setup of the AgroXM solution has been deployed for the sake of the Ledger project.
-
-- The IoT platform is running here: [http://demo.agro.exm.gr:9090](http://demo.agro.exm.gr:9090)
-
-- The middleware application is running here: [http://demo.agro.exm.gr:8080](http://demo.agro.exm.gr:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/)
-
-- A binary apk file for the android app can be found under the repo's [releases section](https://github.com/LedgerProject/disemin-android/releases).
-
-The demo credentials for logging in the app (or the platform) are:
-
-```
-username = demo@exm.gr
-password = demo123
-```
+You can find the detailed architecture, the full collection of the solution's code repositories, and guides for running all the components here:
+[https://github.com/LedgerProject/disemin-home](https://github.com/LedgerProject/disemin-home)
 
 ## Attribution 
 

@@ -1,24 +1,23 @@
-# The  Project
+# /e/ - Privacy Central app
 
-Describe the product/service
+/e/ is an Android operating system which respect its users’ privacy!
+
+That is why, as part of the LEDGER program, we are developing a “Privacy Central app”. This app will let Android users have a good understanding of the privacy concerns that exist around applications they are using. And, in addition, it will give them tools to protect their privacy.
+
+For the LEDGER project, we focus mainly on two features:
+1. Tracker blocker: this feature lets the user see, analyse and block trackers in apps
+1. IP scrambling: this features lets users hide their IP
 
 ## The Technology
 
-Describe your tech
+### Tracker blocker
+
+The tracker blocker relies on a local DNS proxy in order to analyse and block DNS requests.
+
+### IP scrambling
+
+We will use the Tor network in order to let users hide their IP.
 
 ## The Repos
 
-Write 2 lines about your different repos 
-Write 2 lines about your different repos 
-
-### Generic_backend
- - [Zenroom](https://github.com/dyne/zenroom)
- - ***Zenroom*** Crypto VM for blockchain and databases
- - Makes coffee
- - Makes candyfloss
- 
-### Generic_frontend
- - [DECODE APP](https://github.com/dyne/decode-proximity-app)
- - ***DECODE App*** React-native app, built for cryptography
- - Makes pizza
- - Makes fries
+We are using a single repo to host the Android application.
