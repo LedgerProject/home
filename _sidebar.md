@@ -41,8 +41,7 @@ Projects and Repos - Round 2
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)
   - **[/e/](/teams/e.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [PrivacyCentralApp](https://github.com/LedgerProject/e_privacycentralapp)
   - **[Fairbnb](/teams/Fairbnb.md)**
     - [Zenroom](https://github.com/dyne/zenroom)
 	- [DECODE App](https://github.com/dyne/decode-proximity-app)
