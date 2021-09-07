@@ -66,13 +66,16 @@ We expect have the following dependencies:
 
 ## The Repos
 
+### NGI LEDGER
+ - https://github.com/LedgerProject/Anastasis
+
 ### Core_logic
  - https://git.taler.net/anastasis.git
  - REST backend, database adapter, authentication plugins,
    reducer-style client-side cryptography
  - Core documentation
 
-### Webiste
+### Website
  - https://git.taler.net/anastasis-www.git
  - Web site (https://anastasis.lu/)
  - GNU gettext internationalized  static page generator based on Jinja2
