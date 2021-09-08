@@ -1,58 +1,115 @@
-# The  Project
+#The  Project
 
-**YouChoose is a browser extension which allows users to see YouTube recommendations from the content creator they are watching.**
+**YouChoose enables users to gain back control over their YouTube recommendations.**
 
-*Problem:*
+## Problem
 
-70% of the content watched on YouTube is selected by YouTube's algorithms. These systems are designed to maximize the interests of the platform, ie generate clicks and ad-revenue. 
+**Algorithms are the gatekeepers** of YouTube.
 
-As a result, YouTubers who invest a lot of efforts into creating quality content, have their audience pushed towards more clickbaity or sensationalist content, because the algorithm assesses that the click-trough rate would be marginally higher. 
+The various search and recommendation engines select [more than 70%](https://www.journalism.org/wp-content/uploads/sites/8/2020/09/Many-Americans-Get-News-on-YouTube-Where-News-Organizations-and-Independent-Producers-Thrive-Side-by-Side.pdf) of the content viewed on the platform.
 
-Users end up having their attention hijacked into watching attention-catching content which provides them with little value.
+Yet, these opaque systems have serious drawbacks:
+* They favor clickbaity and sensationalist content
+* They are not accountable and hardly customizable
+* Their results are confined within YouTube.com
 
-*Solution*:
+**➜ An AI with misaligned interest decides most of what people watch.**
 
-Our tool empowers internet users over platforms to control online recommendations.  
+## YouChoose
 
-We beleive that content creators are in a better position to recommend the most relevant videos to watch after their own content that an AI with miasligned incentive. 
+**Gain back control over your recommendations** on YouTube.
 
-YouChoose will enable content creators to pick a selection of videos they want to recommend after each of their own videos, which will be displayed on the recommendation sidebar of all users with the extension installed. 
+YouChoose allows you to choose your recommendation model on YouTube.com, including:
 
-Our project will be developed as a non-profit, with a collective governance model which will include the content creators which will take part in the project.
+* From your content creators
+* From other websites and social media feeds
+* From alternative recommendation engines like Tournesol.app
+
+**YouChoose helps you design recommendations that are optimized for you, not for YouTube.**
+
+## Motivation
 
 
-* The main tool revolve around a browser extension and the intention of hijack people attention from youtube.
-* giving control back to content creator is 
-* Our stack is nodejs and mongodb. For ledger we want to design an infrastructure with less single point of failures
+There is a **growing frustration** on the monopolistic influence platforms have in shaping information flows.
 
-## The Technology
+**Content creators** are at the mercy of an opaque AI which favors engagement over quality.
 
-1. Creating a browser extension to change youtube UX, initially based on hardcoded information. 
+**YouTube users** have their attention monetized and pushed towards addictive consumption patterns.
 
-2. Gradually integrate with a centralized backend implemented in nodejs and mongodb. Implement backup, redundancy, caching, and CDN for this server. Perform stress testing and evaluate decentralized models. Considering the data are not personal, we might likely think to adopt also DHT or ipfs for content distribution and to avoid SPoF. 
+**Regulators** are demanding more AI transparency and market competition. 
 
-3. Creating an interface for content creators where they can select and control their recommendations requires a javascript web framework to implement an understandable and usable UX.
+**Algorithmic platforms** like YouChoose will soon emerge, similar to how app stores offered alternatives to native applications.
 
-Although point 1 might sound straightforward, and Youtube allows extension that enhances the experience but has already cracked down extension, they might impact their business model. We are slightly worried about this possibility; therefore we want to focus on making it most robust and reliable, and then, we have a few: "Optional nice to have," technical components:
+YouChoose is an early **attempt to end the era of algorithmic monopolies**.
 
-* Study a wrapping website for the mobile experience and onboard people (Eventually analyze and integrate technology from on invidio.us approach on how to wrap youtube videos reliably.)
-* Integrate a micropayment model by integrating a few components of Metamask extension into ours.
+A step toward a **more open and decentralized internet**, with more user agency.
 
-We would like to talk about these possibilities, as they the are strategic for the success of YouChoose, but we do not want to commit in tasks that might be excessive hard for the 6 months.
+## Our approach
+
+**YouChoose is an alternative recommendation system** for YouTube.
+
+Rather than purely relying on AI, **YouChoose leverages human expertise** to identify the best related content. 
+
+Such specialized human expertise is found among:
+* Content creators (main feature)
+* Volunteer contributors [Tournesol.app](https://tournesol.app)
+* Existing online communities (feeding recommendations from Reddit / RSS feeds)
+* Users' personal feeds on other platforms (Facebook)
+ 
+
+## Unique Value Proposition
+
+**For YouTube users**:
+
+* Recommendations that are aligned with your own interest, not someone else's profit.
+* Seing recommendations outside of YouTube, including wikipedia pages, articles or links to other platforms.
+* Gaining back agency over your informational diet and choosing who you trust to recommend you content
+* Super light habit change: Simple extension which overrides recommendations directly on YouTube.com.
+
+
+**For content creators**:
+* Gain back control on the other videos your content promotes.
+* Gain a new direct connection to your audience, through recommendations.
+* Get analytics on the recommendations and ads which YouTube puts on your content
+* Find out if some of your videos are being shadow banned
+
+
+## Fostering quality contributions from the community
+
+In a second stage, it seems natural to also enable the community to curate recommendations.
+
+For a given video, a user could suggest another a video or an external link that is relevant.
+
+There needs to be incentive mechanisms to reward quality contributions, as curation is time-consuming. On the other hand, their needs to be safeguards to prevent spamming. 
+One approach is to use a blockchain based coin. 
+
+In order to make a content recommendation, users would need to stake some tokens. 
+When the recommendation is downvoted by the community, the staked tokens are lost, and redistributed to the people whose recommendations have been upvoted. 
+
+
+# The Technology
+
+## Stack
+
+* The main tool revolve around a browser extension which can parse and modify the HTML on youtube.com. 
+It is implemented in Javascript, and works both on Chrome / Chromium / Brave and FireFox.
+
+* From the extension, a dashboard can also be opened on the user's browser to allow them to add recommendations for specific videos.
+At first, this is aimed for content creators to customize their own content.
+
+* The extension and dashboard communicates with a backend server from which the cuztomized recommendations are fetched and updated. 
+The backend is implemented in nodejs with a mongo database.
+
+
 
 ## The Repos
 
-Write 2 lines about your different repos 
-Write 2 lines about your different repos 
 
-### Generic_backend
- - [Zenroom](https://github.com/dyne/zenroom)
- - ***Zenroom*** Crypto VM for blockchain and databases
- - Makes coffee
- - Makes candyfloss
+### Exension
+ - [YCAI](https://github.com/tracking-exposed/YCAI)
+ - The user facing browser extension
+ - Contains the content creator dashboard
  
-### Generic_frontend
- - [DECODE APP](https://github.com/dyne/decode-proximity-app)
- - ***DECODE App*** React-native app, built for cryptography
- - Makes pizza
- - Makes fries
+### Backend
+ - [YouTube Tracking Exposed](https://github.com/tracking-exposed/yttrex/tree/ea9db843f42977bb652052e10fba2b79de5ded88)
+ - Backend infrastructure to collect and parse youtube HTML.
