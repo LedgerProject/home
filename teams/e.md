@@ -20,4 +20,4 @@ We will use the Tor network in order to let users hide their IP.
 
 ## The Repos
 
-We are using a single repo to host the Android application.
+We are using a single repo to host the Android application here: https://github.com/LedgerProject/e_privacycentralapp
