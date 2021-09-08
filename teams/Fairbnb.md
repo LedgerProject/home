@@ -60,5 +60,26 @@ You can try our solution following these steps:
 
  ### Keypair/certificate generation
  
+ 1) Go to demo website backoffice (https://ledger.fairbnb.coop/admin169jfftgg) user: demo@demo.com password: demodemo
+ 2) Navigate on the left menu to Parametri Avanzati > Local Ambassador Key Gen
+ 3) Click on  'Generte key' to obtain the private/public keys filling at leat 3 answers and your email address
+
+ NOTE: 
+ now there is no way to create a new keipair if it has been already generated. You can regenerate it aswering to the same questions you've filled in the first time,
+ with the same values. For this reason, if you want to genereate a key to test the signature, you need to fill the first 3 questions with 'demo' and use 'demo@demo.com'
+ 
+ 4) Once your public/private keys are generated (private key is store into the browser local storage) you can sign a contract selecting it from the dropdown and clicking on 'Sign Contract'
+ 5) You will see the signed contract inside the textarea on the right
+ 
+ 
  ### Certificate validation
+ 
+ 1) Go to demo website (https://ledger.fairbnb.coop)
+ 2) Open listing details
+ 3) On the right side of the listing detail, you will find the certificate details
+ 4) If the certificate exists, you will find:
+  - the signed contract
+  - the public key (you can use to validate/verify the signed contract)
+  - the signature
+ 5) You can also validate the contract from this detail page clicking on 'Verify Sign'
 
