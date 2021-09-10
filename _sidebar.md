@@ -38,19 +38,17 @@ Projects and Repos - Round 2
 
  Projects and Repos - Round 3
   - **[Anastasis](/teams/Anastasis.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [Core Repo](https://github.com/LedgerProject/Anastasis)
   - **[/e/](/teams/e.md)**
     - [PrivacyCentralApp](https://github.com/LedgerProject/e_privacycentralapp)
   - **[Fairbnb](/teams/Fairbnb.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [Attributes_signature_Repo](https://github.com/LedgerProject/FairBnb_attributes_signature_module)
   - **[Moncon](/teams/Moncon.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
-  - **[NYM-B2B](/teams/NYM-B2B.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [Dashboard_Repo](https://github.com/LedgerProject/moncon/tree/main/packages/dashboard)
+	- [PWA_Repo](https://github.com/LedgerProject/moncon/tree/main/packages/moncon-wallet)
+	- [API_Repo](https://github.com/LedgerProject/moncon/tree/main/packages/api)
+  - **[NYM](/teams/nym-pcc.md)**
+    - [nym-pcc_Repo](https://github.com/LedgerProject/nym-pcc)
   - **[Patio](/teams/Patio.md)**
     - [PATIO_backend](https://github.com/LedgerProject/patio_backend)
     - [PATIO_frontend](https://github.com/LedgerProject/patio_frontend)
@@ -64,8 +62,7 @@ Projects and Repos - Round 2
     - [Sensix PowerMap Backend](https://github.com/LedgerProject/sensix-power-map-backend)
     - [Sensix PowerMonitor](https://github.com/LedgerProject/sensix-power-monitor)
   - **[YouChoose](/teams/YouChoose.md)**
-    - [Zenroom](https://github.com/dyne/zenroom)
-	- [DECODE App](https://github.com/dyne/decode-proximity-app)
+    - [YouChoose.AI_Repo](https://github.com/LedgerProject/YouChoose.AI)
 
 
  Misc

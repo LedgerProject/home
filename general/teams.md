@@ -121,7 +121,7 @@ eHealth startup focused exclusively on the digitization of medical processes, ha
 
 ### Moncon
 
-### NYM-B2B
+### NYM
 
 ### Patio
 

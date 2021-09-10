@@ -39,7 +39,7 @@ Thus, the module we have developed for our certificate is a prestashop module.
 
 ## The Repos
 
-https://github.com/LedgerProject/prestashop_attributes_signature_module
+https://github.com/LedgerProject/FairBnb_attributes_signature_module
 
 This repository contains both backend and frontend code
 
