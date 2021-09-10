@@ -1,4 +1,4 @@
-#The  Project
+# The  Project
 
 **YouChoose enables users to gain back control over their YouTube recommendations.**
 
@@ -101,15 +101,20 @@ At first, this is aimed for content creators to customize their own content.
 The backend is implemented in nodejs with a mongo database.
 
 
+## The Repositories
 
-## The Repos
+ - [Youchoose.AI](https://github.com/LedgerProject/YouChoose.AI)
+ - Alpha released signed for the first demo day, 0.1.10 version.
 
-
-### Exension
- - [YCAI](https://github.com/tracking-exposed/YCAI)
- - The user facing browser extension
- - Contains the content creator dashboard
+### Extension
+ - The user facing browser extension, it changes YouTube interface, and allow a variety of opt-in depending on adopters will and interests.
+ - Implement the content creator dashboard
  
 ### Backend
- - [YouTube Tracking Exposed](https://github.com/tracking-exposed/yttrex/tree/ea9db843f42977bb652052e10fba2b79de5ded88)
- - Backend infrastructure to collect and parse youtube HTML.
+ - available as submodule into the repository YouChoose.AI
+ - Backend infrastructure to collect and parse youtube HTML, to serve API v2 (developed in the past as part of https://youtube.tracking.exposed) and API v3 (developed for YouChoose new feature set).
+
+### Shadow ban analysis toolkit
+
+ - Currently work in progress, because the techniquest to detect _demotion_ are robusts in certain case, but not definitive in any case. 
+ - You can build it as executable from YouChoose/yttrex-backend/methodology
