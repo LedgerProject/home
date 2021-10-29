@@ -29,7 +29,7 @@ SafePKT consists of three separate components:
     - the [Docker Engine](https://www.docker.com/)  
  This backend offers capabilities to verify program written in Rust, 
  by emitting LLVM bitcode, consumed by KLEE Symbolic Execution Engine.  
- Besides it provides with two separate execution modes:
+ Besides it provides developers and researchers with two separate execution modes:
     - HTTP verification with a REST API
     - CLI (Command-Line Interface) verification
  - a [frontend](https://github.com/LedgerProject/safepkt_frontend) based on [NuxtJS](https://nuxtjs.org/)
