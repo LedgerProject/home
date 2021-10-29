@@ -54,7 +54,6 @@ The Visual Studio Code extension is available from the [official marketplace](ht
 
 ### LinkedIn
 
- - [Caleb James de Lisle](https://github.com/cjdelisle)
  - [Fausto Spoto](https://www.linkedin.com/in/fausto-spoto-65171/)
  - [Thierry Marianne](https://twitter.com/thierrymarianne)
 
