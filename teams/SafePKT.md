@@ -24,14 +24,14 @@ SafePKT depends on the following technologies:
 
 SafePKT consists of three separate components:
  - a [backend](https://github.com/LedgerProject/safepkt_backend) leveraging 
-    - the [Rust Verification Tools](https://github.com/project-oak/rust-verification-tools),
-      - the [KLEE Symbolic Execution Engine](http://klee.github.io/)
-    - the [Docker Engine](https://www.docker.com/)  
- This backend offers capabilities to verify program written in Rust, 
+  - the [Rust Verification Tools](https://github.com/project-oak/rust-verification-tools),
+  - the [KLEE Symbolic Execution Engine](http://klee.github.io/)
+  - the [Docker Engine](https://www.docker.com/)  
+ This backend offers capabilities to verify program written in Rust,  
  by emitting LLVM bitcode, consumed by KLEE Symbolic Execution Engine.  
  Besides it provides developers and researchers with two separate execution modes:
-    - HTTP verification with a REST API
-    - CLI (Command-Line Interface) verification
+  - HTTP verification with a REST API
+  - CLI (Command-Line Interface) verification
  - a [frontend](https://github.com/LedgerProject/safepkt_frontend) based on [NuxtJS](https://nuxtjs.org/)
  - an [extension for Visual Studio Code](https://github.com/LedgerProject/safepkt_vscode-plugin)
 
