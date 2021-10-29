@@ -39,3 +39,27 @@ A [fourth repository](https://github.com/LedgerProject/safepkt) has been created
  - installation of the project components and
  - contribution to it.
 
+## Demo
+
+The Visual Studio Code extension is available from the [official marketplace](https://marketplace.visualstudio.com/items?itemName=CJDNS.safepkt-verifier)[
+
+## Contact
+
+### GitHub
+
+ - [Caleb James de Lisle](https://github.com/cjdelisle)
+ - [Étienne Payet](https://github.com/etiennepayet)
+ - [Fausto Spoto](https://github.com/spoto)
+ - [Thierry Marianne](https://twitter.com/thierrymarianne)
+
+### LinkedIn
+
+ - [Caleb James de Lisle](https://github.com/cjdelisle)
+ - [Fausto Spoto](https://www.linkedin.com/in/fausto-spoto-65171/)
+ - [Thierry Marianne](https://twitter.com/thierrymarianne)
+
+### Twitter
+
+ - [Caleb James de Lisle](https://twitter.com/cjdelisle)
+ - [Thierry Marianne](https://twitter.com/thierrymarianne)
+
