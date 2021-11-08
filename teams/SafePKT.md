@@ -68,15 +68,15 @@ SafePKT consists of three separate components:
  - a [ready-for-verification smart contract project example](https://github.com/LedgerProject/safepkt_smart-contract-example),  
    based on [one of ink! eDSL examples: a Plain Multisig Wallet](https://github.com/paritytech/ink/tree/v2.1.0/examples/multisig_plain),
  - an [extension for Visual Studio Code](https://github.com/LedgerProject/safepkt_vscode-plugin),
- - and at last but not least, a research paper "On the Termination of Borrow Checking for Rust" authored by
+ - and at last but not least, [a research paper](https://github.com/LedgerProject/safepkt_paper) "On the Termination of Borrow Checking for Rust" authored by
    - [Etienne Payet](etienne.payet@univ-reunion.fr),
    - [David Pearce](david.pearce@ecs.vuw.ac.nz) and
    - [Fausto Spoto](fausto.spoto@univr.it)
 
 A [fourth repository](https://github.com/LedgerProject/safepkt) has been created to ease
- - compilation and regular publication (from GitHub) of the research paper
- - installation of the project frontend, backend and CLI components and
- - contribution to them, along with maintenance of the VS Code extension
+ - automation of compilation and publication (from GitHub) of the [research paper](https://github.com/LedgerProject/safepkt_paper/releases)
+ - [installation](https://github.com/LedgerProject/safepkt#install) of the project frontend, backend and CLI components and
+ - [contribution](https://github.com/LedgerProject/safepkt#contribute) to those components, along with maintenance of the VS Code extension
 
 ## Demo
 
