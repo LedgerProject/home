@@ -1,0 +1,3 @@
+[submodule "smart-contract-example"]
+	path = smart-contract-example
+	url = https://github.com/LedgerProject/safepkt_smart-contract-example
