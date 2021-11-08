@@ -57,19 +57,26 @@ SafePKT depends on the following technologies:
 SafePKT consists of three separate components:
  - a [backend](https://github.com/LedgerProject/safepkt_backend) leveraging 
    - the [Rust Verification Tools](https://github.com/project-oak/rust-verification-tools),
-   - the [KLEE Symbolic Execution Engine](http://klee.github.io/)
-   - the [Docker Engine](https://www.docker.com/)  
+   - the [KLEE Symbolic Execution Engine](http://klee.github.io/),
+   - the [Docker Engine](https://www.docker.com/).  
    This backend offers capabilities to verify program written in Rust,  
    by emitting LLVM bitcode, consumed by KLEE Symbolic Execution Engine.  
    Besides it provides developers and researchers with two separate execution modes:
-   - HTTP verification with a REST API
-   - CLI (Command-Line Interface) verification
- - a [frontend](https://github.com/LedgerProject/safepkt_frontend) based on [NuxtJS](https://nuxtjs.org/)
- - an [extension for Visual Studio Code](https://github.com/LedgerProject/safepkt_vscode-plugin)
+   - HTTP verification with a REST API,  
+   - CLI (Command-Line Interface) verification.  
+ - a [frontend](https://github.com/LedgerProject/safepkt_frontend) based on [NuxtJS](https://nuxtjs.org/),  
+ - a [ready-for-verification smart contract project example](https://github.com/LedgerProject/safepkt_smart-contract-example),  
+   based on [one of ink! eDSL examples: a Plain Multisig Wallet](https://github.com/paritytech/ink/tree/v2.1.0/examples/multisig_plain),
+ - an [extension for Visual Studio Code](https://github.com/LedgerProject/safepkt_vscode-plugin),
+ - and at last but not least, a research paper "On the Termination of Borrow Checking for Rust" authored by
+   - [Etienne Payet](etienne.payet@univ-reunion.fr),
+   - [David Pearce](david.pearce@ecs.vuw.ac.nz) and
+   - [Fausto Spoto](fausto.spoto@univr.it)
 
-A [fourth repository](https://github.com/LedgerProject/safepkt) has been created to ease both
- - installation of the project components and
- - contribution to it.
+A [fourth repository](https://github.com/LedgerProject/safepkt) has been created to ease
+ - compilation and regular publication (from GitHub) of the research paper
+ - installation of the project frontend, backend and CLI components and
+ - contribution to them, along with maintenance of the VS Code extension
 
 ## Demo
 
