@@ -30,7 +30,7 @@ SafePKT technology consists of a web based frontend and server-side backend, whi
 together to provide a software developer with reports about potential bugs or security
 issues in their code.
 
-Both a command-line (CLI) application and a Visual Studio Code plugin offer independently from the two previous components,  
+Both a [command-line (CLI) application](https://github.com/LedgerProject/safepkt_backend/releases) and a [Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=CJDNS.safepkt-verifier) offer independently from the two previous components,  
 reports containing the same level of detail offered by the backend when it comes to  
 analyzing a rust-based smart-contract written on top of [Parity's ink! eDSL](https://github.com/paritytech/ink/tree/v2.1.0) - see https://github.com/paritytech/ink/tree/v2.1.0.
 
