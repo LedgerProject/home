@@ -26,13 +26,31 @@ The technology of PKT overall includes [PacketCrypt](https://pkt.cash/PacketCryp
 bandwidth-hard proof of work, [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network),
 and [cjdns](https://github.com/cjdelisle/cjdns) networking protocol.
 
-SafePKT technology consists of a web based frontend and server-side backend which work
+SafePKT technology consists of a web based frontend and server-side backend, which work
 together to provide a software developer with reports about potential bugs or security
 issues in their code.
 
+Both a [command-line (CLI) application](https://github.com/LedgerProject/safepkt_backend/releases) and a [Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=CJDNS.safepkt-verifier) offer independently from the two previous components,  
+reports containing the same level of detail offered by the backend when it comes to  
+analyzing a rust-based smart-contract written on top of [Parity's ink! eDSL](https://github.com/paritytech/ink/tree/v2.1.0) - see https://github.com/paritytech/ink/tree/v2.1.0.
+
 SafePKT depends on the following technologies:
- - Node.js, Typescript, Vue.js, NuxtJs (front-end)
- - Rust, Docker engine, Rust Verification Tools, LLVM, KLEE (back-end)
+ - Single-page application:
+   - [Node.js](https://nodejs.org/),
+   - [Typescript](https://www.typescriptlang.org/),
+   - [Vue.js](https://vuejs.org/),
+   - [NuxtJs](https://nuxtjs.org/)
+ - Server-side back-end and command-line application:
+   - [Rust](https://www.rust-lang.org/),
+   - [Docker engine](https://www.docker.com/products/container-runtime),
+   - [Rust Verification Tools](https://project-oak.github.io/rust-verification-tools/),
+   - [LLVM](https://llvm.org/),
+   - [KLEE](http://klee.github.io/)
+ - VS Code extension:
+   - [Got](https://github.com/sindresorhus/got/tree/v11.8.2),
+   - [Tree-sitter](https://tree-sitter.github.io/tree-sitter/),
+   - [Typescript](https://www.typescriptlang.org/),
+   - [VS Code Extension API](https://code.visualstudio.com/api)
 
 ## The Repos
 
