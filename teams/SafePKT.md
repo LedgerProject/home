@@ -26,9 +26,13 @@ The technology of PKT overall includes [PacketCrypt](https://pkt.cash/PacketCryp
 bandwidth-hard proof of work, [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network),
 and [cjdns](https://github.com/cjdelisle/cjdns) networking protocol.
 
-SafePKT technology consists of a web based frontend and server-side backend which work
+SafePKT technology consists of a web based frontend and server-side backend, which work
 together to provide a software developer with reports about potential bugs or security
 issues in their code.
+
+Both a command-line (CLI) application and a Visual Studio Code plugin offer independently from the two previous components,  
+reports containing the same level of detail offered by the backend when it comes to  
+analyzing a rust-based smart-contract written on top of [Parity's ink! eDSL](https://github.com/paritytech/ink/tree/v2.1.0) - see https://github.com/paritytech/ink/tree/v2.1.0.
 
 SafePKT depends on the following technologies:
  - Node.js, Typescript, Vue.js, NuxtJs (front-end)
