@@ -35,8 +35,22 @@ reports containing the same level of detail offered by the backend when it comes
 analyzing a rust-based smart-contract written on top of [Parity's ink! eDSL](https://github.com/paritytech/ink/tree/v2.1.0) - see https://github.com/paritytech/ink/tree/v2.1.0.
 
 SafePKT depends on the following technologies:
- - Node.js, Typescript, Vue.js, NuxtJs (front-end)
- - Rust, Docker engine, Rust Verification Tools, LLVM, KLEE (back-end)
+ - Single-page application:
+   - [Node.js](https://nodejs.org/),
+   - [Typescript](https://www.typescriptlang.org/),
+   - [Vue.js](https://vuejs.org/),
+   - [NuxtJs](https://nuxtjs.org/)
+ - Server-side back-end and command-line application:
+   - [Rust](https://www.rust-lang.org/),
+   - [Docker engine](https://www.docker.com/products/container-runtime),
+   - [Rust Verification Tools](https://project-oak.github.io/rust-verification-tools/),
+   - [LLVM](https://llvm.org/),
+   - [KLEE](http://klee.github.io/)
+ - VS Code extension:
+   - [Got](https://github.com/sindresorhus/got/tree/v11.8.2),
+   - [Tree-sitter](https://tree-sitter.github.io/tree-sitter/),
+   - [Typescript](https://www.typescriptlang.org/),
+   - [VS Code Extension API](https://code.visualstudio.com/api)
 
 ## The Repos
 
