@@ -54,9 +54,11 @@ Projects and Repos - Round 2
     - [PATIO_frontend](https://github.com/LedgerProject/patio_frontend)
     - [PATIO_device_service](https://github.com/LedgerProject/patio_device_service)
   - **[SafePKT](/teams/SafePKT.md)**
-    - [SafePKT](https://github.com/LedgerProject/safepkt)
-    - [SafePKT_backend](https://github.com/LedgerProject/safepkt_backend)
-    - [SafePKT_frontend](https://github.com/LedgerProject/safepkt_frontend)
+    - [All-in-one SafePKT repository](https://github.com/LedgerProject/safepkt)
+    - [SafePKT Backend](https://github.com/LedgerProject/safepkt_backend)
+    - [SafePKT Frontend](https://github.com/LedgerProject/safepkt_frontend)
+    - [SafePKT VS Code Extension](https://github.com/LedgerProject/safepkt_vscode-plugin)
+    - [SafePKT Smart Contract Example](https://github.com/LedgerProject/safepkt_smart-contract-example)
   - **[Sensix](/teams/Sensix.md)**
     - [Sensix PowerMap Frontend](https://github.com/LedgerProject/sensix-power-map-frontend)
     - [Sensix PowerMap Backend](https://github.com/LedgerProject/sensix-power-map-backend)
