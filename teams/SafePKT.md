@@ -1,5 +1,7 @@
 # The  Project
 
+Check out the SafePKT official website: https://safepkt.cjdns.fr/
+
 SafePKT is a project to study and build static analysis technology for the Rust code
 used in the PKT project. PKT is a project for disintermediating telecom monopolies by
 de-coupling the roles of infrastructure operation from (internet) service provision.
