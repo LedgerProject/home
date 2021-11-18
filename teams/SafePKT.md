@@ -40,12 +40,16 @@ SafePKT depends on the following technologies:
    - [Typescript](https://www.typescriptlang.org/),
    - [Vue.js](https://vuejs.org/),
    - [NuxtJs](https://nuxtjs.org/)
- - Server-side back-end and command-line application:
+ - Server-side back-end and rust command-line application:
    - [Rust](https://www.rust-lang.org/),
    - [Docker engine](https://www.docker.com/products/container-runtime),
    - [Rust Verification Tools](https://project-oak.github.io/rust-verification-tools/),
    - [LLVM](https://llvm.org/),
    - [KLEE](http://klee.github.io/)
+ - Node.js command-line application:
+   - [Node.js](https://nodejs.org/),
+ - SafePKT assertion library:
+   - [Rust](https://www.rust-lang.org/),
  - VS Code extension:
    - [Got](https://github.com/sindresorhus/got/tree/v11.8.2),
    - [Tree-sitter](https://tree-sitter.github.io/tree-sitter/),
@@ -65,6 +69,8 @@ SafePKT consists of three separate components:
    - HTTP verification with a REST API,  
    - CLI (Command-Line Interface) verification.  
  - a [frontend](https://github.com/LedgerProject/safepkt_frontend) based on [NuxtJS](https://nuxtjs.org/),  
+ - a secondary [CLI (command-line application)](https://github.com/LedgerProject/safepkt_cli) based on [Node.js](https://nodejs.org/),  
+ - an [assertion library](https://github.com/LedgerProject/safepkt_assert) based on [rvt verification annotations library](https://github.com/LedgerProject/safepkt_rust-verification-tools/tree/main/verification-annotations),  
  - a [ready-for-verification smart contract project example](https://github.com/LedgerProject/safepkt_smart-contract-example),  
    based on [one of ink! eDSL examples: a Plain Multisig Wallet](https://github.com/paritytech/ink/tree/v2.1.0/examples/multisig_plain),
  - an [extension for Visual Studio Code](https://github.com/LedgerProject/safepkt_vscode-plugin),
@@ -80,7 +86,13 @@ A [fourth repository](https://github.com/LedgerProject/safepkt) has been created
 
 ## Demo
 
-The Visual Studio Code extension is available from the [official marketplace](https://marketplace.visualstudio.com/items?itemName=CJDNS.safepkt-verifier)
+An online demo of a rust-based smart contract verification is available from
+ - [https://safepkt.cjdns.fr](https://safepkt.cjdns.fr)
+
+Rust-based smart contract analysis and verification is also available to developers and
+researchers by installing [VS Code](https://code.visualstudio.com/download) and [SafePKT Verifier extension](https://marketplace.visualstudio.com/items?itemName=CJDNS.safepkt-verifier)
+from VS Code Marketplace.
+ - [https://marketplace.visualstudio.com/items?itemName=CJDNS.safepkt-verifier](https://marketplace.visualstudio.com/items?itemName=CJDNS.safepkt-verifier)
 
 ## Contact
 
