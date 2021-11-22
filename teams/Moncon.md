@@ -27,7 +27,6 @@ To solve that problem, there is no other technology available but Blockchain: vi
 
 ###	Blockchain: 
 -	Zenroom and Sawroom: API used to handle and encrypt sensitive user information, allow the use of the Zero Knowledge Protocol, allows information to be shared and verified without revealing unnecessary data, thus maintaining a very high level of security.
--	Interledger: is an open protocol suite for sending payments across different  ledgers. Like the internet, connectors route packets of money across  independent networks. The open architecture and minimal protocol enable  interoperability for any value transfer system.
 
 ## The Team
 
@@ -54,8 +53,8 @@ As a team, we perfectly combine business and technology worlds, having created s
 
 
 ## The Repos
-### Dashboard
-- **[Dashboard](https://github.com/LedgerProject/moncon/tree/main/packages/dashboard)
+### Dashboard (for publishers and issuers)
+- [Dashboard](https://github.com/LedgerProject/moncon/tree/main/packages/dashboard)
 - moncon Dashboard is coded in React is designed to provide a content log to block and monetize, as well as metrics for your blocked content. 
 
 ### Progressive Web App (moncon Wallet)
@@ -77,27 +76,20 @@ You can try our solution following these steps:
 2- Access with our demo user: username "demo@moncon.co" and password "moncon"
 3- Imagine you are a publisher and you want to sell content by a condition, and you are the owner of this site [Publisher Media](https://demo.moncon.co).
 4- Choose a URL from your [Publisher Media](https://demo.moncon.co) and go to "Monetize Your Content" on [Dashboard](https://app.dashboard.moncon.co).
-5- Add price and select the condition (you are asking a user for this credential).
+5- Add price and select the condition and the type of the credential (ZKP or W3C) (you are asking a user for this credential).
 6- Now, as user that wants to access the content you've already blocked, visit this URL.
 7- The user, have to access to his [moncon wallet](https://github.com/LedgerProject/moncon/tree/main/packages/moncon-wallet).
 8- Add your datebirth and Ask for Credential.
-9- You will receive the credential signed by moncon acting as issuer.
-10- Now, you can scan the QR code from the URL.
-11- You have to accept sharing your credential.
-12- If you met the credential conditions, add the payment method and purchase that content.
-13- The content will be unlocked inmediately.
-14- As user, you will have the content purchased in your Articles tab, accessible forever you want without asking again for your credential.
-15- Now, you can play more with our demo blocking more content and adding more conditions.
-
-## Roadmap
-Coming features we will add:
-- Encrypted backup moncon wallet.
-- ZKP for credential validation.
-- Add +10 different types of credentials.
-- Payments and billing from moncon dashboard to publisher.
-- Issuer dashboard for validating the credentials.
-- Mobile App (iOS and Android).
-- ...any idea? Ask us here for new features: hello@moncon.co.
+9- Now go to issuer platform to validate that credential [Dashboard](https://app.dashboard.moncon.co) 
+10- Access with our demo issuer: username "issuer@moncon.co" and password "4a8X8Vphu9vpQH"
+11- Check the credential and Validate it.
+12- The user will receive the credential in youre wallet signed by moncon, the ZKP and the W3C credential.
+13- Now, you can scan the QR code from the URL.
+14- You have to accept sharing your credential.
+15- If you met the credential conditions, add the payment method and purchase that content.
+16- The content will be unlocked inmediately.
+17- As user, you will have the content purchased in your Articles tab, accessible forever you want without asking again for your credential.
+18- Now, you can play more with our demo blocking more content and adding more conditions.
 
 ## Website
 Visit us [moncon](https://moncon.co) or join our [Telegram group](https://t.me/monconcommunity).
