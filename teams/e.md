@@ -14,11 +14,11 @@ For the LEDGER project, we focus mainly on two features:
 
 The tracker blocker relies a customized DNS resolver. For each request, it checks if the DNS domain is in the blocking list. We also implemented a mechanism to whitelist an app, if for any reason a user doesn't want to block all (or a given) trackers on this app.
 
-In addition, the it records all request for the blocked domains, in order to provide stats for the user.
+In addition, it records all requests for the blocked domains, in order to provide stats for the user.
 
 ### IP scrambling
 
-The application connect the device to the Tor network (using the Android implementation, Ortbot).
+The application connects the device to the Tor network (using the Android implementation, Ortbot).
 
 ## The Repos
 
