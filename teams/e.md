@@ -1,6 +1,6 @@
 # /e/ - Privacy Central app
 
-/e/ is an Android operating system which respect its users’ privacy!
+/e/OS is a deGoogled and pro-privacy mobile operating system compatible with Android applications!
 
 That is why, as part of the LEDGER program, we are developing a “Privacy Central app”. This app will let Android users have a good understanding of the privacy concerns that exist around applications they are using. And, in addition, it will give them tools to protect their privacy.
 
