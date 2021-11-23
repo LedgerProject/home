@@ -7,6 +7,8 @@ With this module we are adding a new feature that let Fairbnb.coop be able to ce
 ## The Technology
 
 Currently our booking engine is based on a proprietary platform, because we are evaluating the possibility to rewite everything to be open source, we are evaluating some options, one of which is prestashop. Prestashop is an open source e-commerce platform.
+
+### First MVP
 Thus, the module we have developed for our certificate is a prestashop module.
 
 ###	Frontend: 
@@ -40,6 +42,38 @@ Thus, the module we have developed for our certificate is a prestashop module.
 ## The Repos
 
 https://github.com/LedgerProject/FairBnb_attributes_signature_module
+
+This repository contains both backend and frontend code
+
+### Final MVP
+The final MVP is a complete rewrite of the First MVP. At that time we were evaluating several options to start building our new Open Source platform and Prestashop CMS was one of that. For this reason we build the first MVP as a Prestashop module. The final MVP is a php/Laravel module because php/Laravel is the stack we decided to use for our new platform.
+
+###	Frontend: 
+
+- blade: blade is the template engine used in Laravel
+- jquery: to interact with DOM and backend
+- javascript: to interact with local storage
+- zenroom: 
+  - to generate the hash of the responses required to generate the keypair
+  - to generate the keypair
+  - to sign the contract
+  - to validate the signed contract
+  - to store the certificate in sawtooth blockchain
+
+###	Backend: 
+
+- php/laravel
+
+### Databases:
+
+- mysql: used to store 
+  - the responses hash (to validate a keypair reset request)
+  - the public key (to verify the certificate)
+  - the signed contract for a listing
+  - the hash/id of sawtooth blockchain
+## The Repos
+
+https://github.com/LedgerProject/fairbnb-faircert
 
 This repository contains both backend and frontend code
 
