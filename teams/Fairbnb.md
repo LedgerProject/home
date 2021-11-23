@@ -54,7 +54,7 @@ Marco Lami is the CTO of Fairbnb.coop, he is a software engineer with more thant
 
 Oleksandr Topov is a young full stack developer with experience in e-commerce platform. For Fairbnb certificate he take care of developing the certification module.
 
-## Use Case Demo
+## Use Case Demo (First MVP)
 
 You can try our solution following these steps:
 
@@ -83,3 +83,13 @@ You can try our solution following these steps:
   - the signature
  5) You can also validate the contract from this detail page clicking on 'Verify Sign'
 
+## Use Case Demo (Final MVP)
+1) Go to demo website backoffice (https://staging-ledger.fairbnb.coop/) user: demo@demo.com password: Demo@123
+2) Rules management: click on hamburgher menu and select 'Rules'
+3) Badges management: click on hamburgher menu and select 'Badges'
+4) Certify listing: click on hamburgher menu and select 'Listing'
+5) Click on 'Waiting for certification' to filter the listings to be certified
+6) Click on 'View' to open a detailed view
+7) Check all the hard rules to enable the certify button and click on it to certify the listing
+8) Click on 'View as Guest' (this button will appear only when the certificate has been created) to have an overview of what a guest can see
+9) In this view, you can scroll to the Fairness section to be able to view the certificate, download it, download the public key needed to verify the signature and the sawtooth hash/id 
