@@ -1,9 +1,10 @@
-# Nym Private COVID Certificate (PCC) 
+# Private COVID Certificate (PCC) - A Coconut Prototype
 
-The existing Digital Covid Certificates (including the European DCC) do not provide strong privacy properties. They can expose unnecessary information about an individual and are not resistant to forgery if the underlying cryptography is compromised. Worse, they can further be used to create a map of the places the person has visited and therefore be used as a tracking system. 
+The existing Digital Covid Certificates do not provide strong privacy properties, it can expose a lot of information about an individual, and can further be used to create a map of the places the person has visited and therefore be used as a tracking system.
 
-We propose a privacy enhanced version using blinded and re-randomizable Coconut credentials that can tackle the above issues. We call this product **Private Covid Certificate (PCC)**. PCC is an extension of Nym's Digital Identity system which also uses Coconut as the underlying technology.  
+We propose a privacy enhanced version using blinded and re-randomizable Coconut credentials that can tackle the above issues. We call this product Private Covid Certificate (PCC)
 
+You can read more about the Coconut credentials and the PCC app detailed design in the project [docs](https://github.com/LedgerProject/nym-pcc/blob/main/docs/Nym%20PCC%20-%20Final%20flows%20and%20design.pdf) 
 
 ## Technology
 
@@ -22,9 +23,52 @@ The mobile app uses the following key libraries:
   [React Material UI](https://material-ui.com/).
 - [HTML5 Audio and Video capture](https://www.html5rocks.com/en/tutorials/getusermedia/intro/) for device camera access.
 - Health certificate decoding libraries and forks from European Union's Digital Green Certificate efforts via the [European eHealth network](https://github.com/ehn-dcc-development).
-- [Tesseract.js](https://tesseract.projectnaptha.com/) and [`mrz`](https://www.npmjs.com/package/mrz), to OCR and decode the Machine Readable Zones of documents such as passports.
 
-## Repo
+The Coconut code is packaged as a WASM package using [`wasm-pack`](https://github.com/rustwasm/wasm-pack).
 
-https://github.com/LedgerProject/nym-pcc
+Coconut credentials are issued and verified as follows:
 
+![coconut-issuance-msg](docs/pcc-sequence-chart.svg)
+
+## Getting Started
+
+Developers will need to do the following to get their environment set up:
+
+1. Install NodeJS using Node Version Manager (`nvm`) by following these instructions: https://github.com/nvm-sh/nvm#installing-and-updating
+
+2. `nvm install`
+
+The correct version of NodeJS will be installed.
+
+3. `npm install`
+
+## Build Coconut WASM
+
+Make sure you have Rust and `wasm-pack` installed by following the instructions at:
+- https://rustup.rs/
+- https://rustwasm.github.io/wasm-pack/installer/
+
+```
+cd packages/coconut-wasm
+wasm-pack build
+```
+
+## Mobile App
+
+Run the apps in dev mode:
+
+```
+cd packages/ledger-mobile-app
+npm install
+npm run start
+```
+
+Go to https://localhost:3000/
+
+> **Note:** the local dev server runs on HTTPS because this is the only way the camera video stream is allowed to be consumed by the browser's script
+
+If you want to play around with the usr and the verifier apps without building them you can do so at https://nym-pcc.vercel.app/
+
+## Coconut CLI and WASM playground
+
+A CLI for experimenting with Coconut can be found in [packages/coconut-cli](packages/coconut-cli) with a similar tool that runs the Coconut WASM package in the browser ([packages/coconut-wasm/www](packages/coconut-wasm/www)).
