@@ -8,6 +8,7 @@
   - [Keypairoom Demo](https://github.com/LedgerProject/keypairoom-demo)
   - [ZenroomBrowserExtension](https://github.com/LedgerProject/zen-web-ext)
   - [Arduino2IPFS](https://github.com/LedgerProject/Disemin-ipfs-client-esp32)
+  - [Ledger TTS via Restroom](https://github.com/LedgerProject/restroom-mw-ledger.tts)
 
 Projects and Repos - Round 2
   - **[backme.org](/teams/backme.org.md)**
