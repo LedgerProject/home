@@ -1,6 +1,6 @@
-[![AgroXM Logo](https://agroxm.com/wp-content/uploads/2020/12/logo.png)](https://agroxm.com)
+[![AgroXM Logo](https://agroxm.com/wp-content/uploads/2020/12/logo.png)](https://exm.gr/agroxm/)
 
-# [AgroXM](https://agroxm.com) · A Distributed Secure Smart Farming Log
+# [AgroXM](https://exm.gr/agroxm/) · A Distributed Secure Smart Farming Log
 
 _also known as project **DISEMIN**_
 
